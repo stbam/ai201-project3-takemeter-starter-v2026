@@ -1,0 +1,712 @@
+text,label,note
+"Yes, if the AI-doom that people are imagining arrives, everyone is cooked.
+
+The reason people only doom about CS is because everyones worried about ""me, me, me"". They have tunnel vision. They're worried about their careers, and what's going to happen to them. So they're imagining a world where CS disappears, and the rest of the world goes completely unchanged, the economy doesn't crash, other fields still hire like normal, and life goes on for everyone else except us.
+
+They're not zooming out and understanding that this is an everyone problem. Not just the careers that're cooked because of AI either. I mean everyone. When the 70+ million white collar employees in the US are all unemployed and trying to pivot out of their failing industry.... where do you think they're all going to go?
+
+They're going to flood the trades, and jobs that currently aren't susceptible to AI.
+
+Those fields do not have the room to support 70+ million people. Those fields will all become extremely oversaturated, and will crumble as well, just for an indirect reason.
+
+This isn't a problem you and I are going to solve. This isn't a problem you're going to dodge by becoming a crab fisherman.
+
+This is a problem that society is going to have to solve. It's going to change society as we know it. So buckle in and enjoy the ride. In the mean time, focus on what's in your control. I have a job now. I'm doing well at work now. I'm collecting a paycheck now. If any of that changes in the future, I'll make an educated decision about what to do next, based on what's happening in the world at that time. I'm not going to pre-emptively ditch an industry I've worked in for 13 years because some redditor says I'm doomed.",opinion,manual
+"I’m literally a doctor and I’m worried I’m not going to have a job (not because I think AI can take care of people, but because I think some evil MBA will think it can)
+
+I take no joy in seeing the dev job market though. My brother is a software developer and I hate to see him out of a job. He’s nervous.
+
+Edit: also I don’t think laying off a bunch of devs is smart anyway because I’m not excited about my electronic medical record or banking system crashing because “whoops Claude forgot something and nobody checked it.” I just don’t trust the capitalist class to see it that way",personal_anecdote,manual
+"Medicine and law are protected by licnesure and liability for the moment. Once thise are relaxed, everyone will be in the same boat",assertion,manual
+"Medicine has an inherent physical aspect to it, so not sure about that. But law is just as impacted as we are by AI. Yes there's licensure, but that doesn't mean lawyers aren't using AI. I'm close friends with a lawyer who's been practicing for about 13 years. AI has completely changed his day to day. For example, he used to have his junior associates read through an insane amount of pages of case law, and provide him a summary relevant to a case he's working. He'd obviously have to review their work, check their claims, etc. He can't just blindly trust a green lawyer. But they do the grunt work, and he's focused on the bigger picture.
+
+What he and the other experienced lawyers have been able to do with AI is have AI do the exact same thing that they used to have their junior associates do. Main difference is AI ends up providing significantly better summaries than the junior associates ever could. He still has to review everything, he still has to fact check everything, just like he did when he had human underlings providing him these things, so his workflow hasn't really changed. What's happening beneath him has changed dramatically.
+
+Direct quote from him: ""Associates are fucked"". And that was a few years ago. I'm sure they're even more fucked now.
+
+I'm sure parts of medicine are changing in similar ways. There obviously still needs to be a human involved, but I bet AI is augmenting the field to the point they no longer need people doing ""grunt work"". For a lot of these regulated fields the concern isn't AI just completely eliminating the field. The concern is AI wipes out the need for entry level people. Just like our concern.",personal_anecdote,manual
+"Just for illustration, we had a recent telehealth ""visit"" which involved describing symptoms to a doctor sitting in his office somewhere and pointing an iPad camera at the affected site. His job was to do an easy diagnosis and send off a prescription.
+
+Maybe in a year instead of five doctors doing live video calls all day there will be one doctor signing off on AI summaries. I believe there are already online drug companies that largely write prescriptions based on doctors' asynchronous review of patient surveys.",personal_anecdote,manual
+"They're going to flood the trades, and jobs that currently aren't susceptible to AI.
+
+""Not susceptible to AI"" is a very small list of jobs.
+
+Any skilled trade will be accelerated by AI - for example an electrician called in to trace a fault will fire up the AI on his tablet which will guide him/her through which sockets/fuses/etc to test and in which order, and it will be a lot faster than using his Human Brain v1.0.
+
+So fewer electricians will be required.",opinion,manual
+"I think ur missing the problem. White-collar workers also help the economy thrive. If most of white collar workers are automated away by AI the society problem is that companies will not be making any money.
+
+Hence why it’s a society problem. Society and the economy is a social contract. Every society thrives because most people are employed. Remove that and u have a problem.",opinion,manual
+"If you look at the stock market though, I think the ""economy"" is already detached from common folk.
+
+Inflation and layoffs have been killing people for years, yet the economy keeps booming along. Stock market is doing amazing - with DOW above 52k.",assertion,manual
+The stock market is not the economy,assertion,manual
+"This is assuming most of the money is being made on most of the people. But actually the economy is shifting towards most of the money is being made on selling to a few rich people. Therefore it may not even matter that most people cannot afford things. Rather I would expect rise of various shady businesses that offer quick loans in a form that avoids regulation to keep the boat floating for the few privileged people. That's the real risk if most of the money is being made on selling to only a very small group of very rich people. So maybe the sudden rise of unemployment might not even be noticed by many businesses or rather they'll find ways to monetize the richer customers. I'm not saying that will necessarily happen, I don't know what will happen, but it is not unthinkable that this is the future where we're headed.",assertion,manual
+"yeah people think physical work is safe, but that not might be true either.
+
+Dont even need robots, some guy on youtube put on AR glasses and had AI guide him on how to fix his own A/C, which screws to undo, which parts to replace and where to order them.
+
+There might be some claude code trades equivalent in the next few years, who knows",personal_anecdote,manual
+"The last time I had an AC technician out, he was asking an AI about things like what size start capacitor my unit needed, instead of manually pulling up a spec sheet. So I guess that's one way it's being used, at least. Whether it's really a speed up or not is another question. ",personal_anecdote,manual
+"Imagine an AR headset that overlays exactly where to cut a pipe/board. It also calculates the number of fittings and other supplies needed and automatically orders them or tells you what to pull from your warehouse. Before you even get back into your truck, AI has already created an invoice and billed the customer (it knows what you did and what materials were used). You get in and the best route to your next job is already pulled up.
+
+Tons and tons of ways for AI to streamline both the repairs and the running of the business",assertion,manual
+"Lol no they won't.
+
+Any skilled trades person will be able to debug the vast vast majority of issues they encounter in their sleep, they don't need some AI to tell them to check a fuse or where to poke the multimeter probes.
+
+Souece, used to do event tech stuff (festival etc) and could and would have to debug some insane messes of power or data cabling. Not once would I have wanted to use AI to help nor do I think it would have sped the process up.",personal_anecdote,manual
+Electrician who was giving me estimate recently used AI extensively.,personal_anecdote,manual
+I took a photo of my panel and AI made very accurate load calculation ready to be submitted to AHJ in 2 minutes.,personal_anecdote,manual
+"The other thing to consider is if all those white collar workers are unemployed so are all the people at restaurants, Starbucks, retail, etc because consumers have no money to spend.
+
+Even surgeons will have less case volume for elective cases when nobody has health insurance.",assertion,manual
+"...because everyones worried about ""me, me, me""
+
+100% this. There is already AI for everything OP listed: finance/accounting, marketing/design, data analysis, and legal. The first that will be truly stripped out in my guess will be middle management. What is the purpose of the go between when you can maintain a full company status automatically and can relay roadmaps and shifts split across departments automatically. The only purpose those middle managers will serve is doing annual reviews and offloading PTO approvals from upper management until AI takes that over too.
+
+The one part that's really the open question is accountability. At the end of the day, a company needs someone to blame when things go wrong. If you take down production and cost the company $10M, they blame you and you get fired. If AI takes down production and costs the company $100M, who do they blame?",opinion,manual
+"The Renaissance only happened because the black death wiped out about a third of Europe's population. With a smaller labor pool, merchants and artisans could get better wages.
+
+I imagine the opposite of this happening. If the labor market is artificially flooded with AI labor, then wages fall faster and you get a severe depression that could last a year or could last a generation.",opinion,manual
+"People doom about CS the most because we're the first being hit. People don't really realize what it means for everyone if CS really can be automated to the extent that the entire industry is cooked. If we're cooked, so is everyone.
+
+And it scares the crap out of me. If CS was the only thing that would get hit, while it would upset me personally as its the skill I've spent my life developing, overall I wouldn't be worried about it. Yes it would suck to have to change careers and almost certainly take lower pay, but I would be able to do so and life would go on. What scares me is that we are the canary right now signalling to everyone that we're all screwed, and I really don't know where we can even go from here to solve it on a societal level. But people won't realize accept the situation until it really hits everyone.",opinion,manual
+"Dude this has basically been my argument. A BSCS is one of the toughest degrees to get (prior to ai) and the job was never an easy one. It took a lot of problem solving and a lot of skill to learn those languages and become proficient in them.
+
+If LLMs can make easy work of that, you think Stacey that sits on her ass all day in the office and makes a few calls or emails a day, maybe update a spreadsheet or two, isn’t in trouble? Finance? Marketing? Ha. Check again.
+
+They’re going after software devs now mostly because of how much money they make. It’ll trickle down to the 60 and 50 thousand dollar a year jobs in no time.",opinion,
+"Because, and this is what really, really terrifies me, they bet that once they have all labor automated, they just won't need anyone else anymore. If you don't need labor to produce your goods anymore, you just don't need labor. It doesn't really matter at that point if there is no one to buy your stuff, because you don't need them to produce it anymore. At that point, all that matters anymore is who owns the capital to produce things.
+
+Right now, they still need labor to live their lifestyles, because they need labor to build their mansions, yachts and planes. They need labor to grow their food and dig for oil. They need labor to produce electricity to power their homes, to make their entertainment, to fight in their wars. Even though the vast majority of labor goes to feeding, housing and entertaining the rest of labor, they can't just get rid of that part of labor without losing the part they need. Once they have automated all of that, however, they just don't need labor anymore, and by then they'll have automated soldiers and bodyguards to defend themselves and their property. They don't even have to actively kill those without capital, because everyone else will have lost their means to fight back.
+
+Money stops meaning much in that scenario, but not in a way that goes well for the majority of humanity.",opinion,pre-labeled
+"If they don't need us, they will get rid of us. It's that simple. They're psychopaths who don't care for anyone but themselves.",assertion,pre-labeled
+Exactly. Most people are naive and think that this is a small problem that will face only some type of white collar. Instead this could be something huge that will change completely thr society as we know of.,assertion,pre-labeled
+"Also, AI doom means that advanced robotics aren’t too far off, meaning eventually many blue collar jobs will get stripped as well.",assertion,pre-labeled
+"They’ll also (try) to flood nursing and other positions in healthcare. Which frankly will be terrible, as most people are likely not cut out to be nurses - either in terms of being able to deal with the stress of working with people/blood/guts/gore nor have the skills that makes a person a good nurse (for example, attention to detail, which ya kinda need when titrating meds for example in terms of knowing the dose, etc).",opinion,pre-labeled
+"It’s about fucking time for a four- or three-day workweek and basic income as well. Why tf are we still working 40 hours a week, for over a century now?",assertion,pre-labeled
+"Software engineering is just slightly easier for AI models to train on and self verify. Thats the only difference so it makes the impact harder + influx of people during the very recent golden ages of 20s.
+
+Obviously it will impact everyone but we are the first and hardest to be hit.",opinion,pre-labeled
+"Imo we are the first, but we'll be the last around too. Software engineers will automate ourselves out of a job first, then we'll move on to automating everybody else out of a job aswell. Accountants aren't going to automate themselves out of work.",opinion,pre-labeled
+"Software was already automating everyone else out of a job well before AI came around (""Why Software Is Eating the World"" came out in 2011), so adding AI to the mix doesn't change the threat model to their career all that much, they've been squeezed for a while now and have already adapted/shifted to doing the work software can't do.",opinion,pre-labeled
+but the rate of automation is much faster now,assertion,pre-labeled
+I think you mean the work that software COULDN'T do. That has changed dramatically.,assertion,pre-labeled
+"This exactly. I’m a senior manager with 80 engineers reporting to me in FAANG. Every year they come after my SWE head count. Every year I save my head count by promising, and then delivering on automation the company can use or sell to fire someone else who is not an SWE. Engineers are fully on board. They’ve realized now that it’s an eat or be eaten world. In fact, half the time, it’s my senior engineers coming to me now with a “Boss, here’s something we can build that will kill 10% of accountants. We can do it in 3 months. Please sell it and save our jobs”.",personal_anecdote,pre-labeled
+"The problem is not automation, it is the economic and political system that centralizes the benefits of those improvements and externalizes the costs.
+
+Construction machines also ""take"" jobs away, you'd need way more people using shovels to dig a hole, but it's obviously stupid to ban digging machines and force workers to use shovels in order to protect jobs.
+
+The solution is not to ban or try to prevent automation, it is to figure out and implement ways for the people being displaced to share in the benefits of that automation.",opinion,pre-labeled
+"Capital will never let this happen without people fighting, and probably dying for that cause. It’s not like a cabal of people acting at the top keeping it from happening, it’s just a bunch of greed that works independently that will inhibit it from happening. Capitalism will eat itself without checks and balances because it’s unconcerned with if it’s sustainable, and is only concerned with how to extract the most wealth for the owning class next quarter.
+
+So until the fighting starts, the status quo will remain unchanged. And the labor is currently losing its leverage/value to fight with.",opinion,pre-labeled
+"Capital will never let this happen without people fighting
+
+Right, but that's where the fight needs to be, not in banning or preventing automation.
+
+Unless for some reason you believe that it is significantly easier to prevent automation than it is to force companies to compensate workers displaced by automation. I actually think preventing automation is the much harder fight, as well as more damaging.",opinion,pre-labeled
+"This sounds like UBI talk. It won’t be portrayed as a bipartisan solution and so we’ll all be coerced to hate the idea of it, or for those who support it",assertion,pre-labeled
+"It can be UBI, it can be making displaced workers shareholders of the companies, it can be many other things.
+
+But trying to prevent automation never works, people love to automate things or make tools to become more productive, even in their hobbies.",opinion,pre-labeled
+"Thankfully SWEs are terrible at building product for an industry they know nothing about. Being on the other end of this, most projects are cancelled even with me handholding them and the few that make it to full release are an absolute nightmare. There’s so much friction integrating these tools, partially because existing systems are an even worse mess. With Ai getting as good as it is now I’ve personally found it easier to make the tools myself now, but I never tell anyone about it lol",personal_anecdote,pre-labeled
+Yeah they think they’re fully automating things but that’s often because they don’t really understand the things they’re automating.,assertion,pre-labeled
+"How is it clownery? What do you think the point of all software invented by human kind or really any technology does? By definition, technology automates something or makes something easier to do. The car for example made horse riders and stable masters obsolete. Then the bus made us need fewer drivers overall. Trains made us need fewer bus drivers. Planes made us need fewer train drivers. Look at any technology and this is what it does. AI is no different. It’s making us need fewer SWEs today. In order for SWEs to save their jobs, they need to prove how they’re still relevant. The only way to do that is to automate people doing other jobs..
+
+Don’t take it up with me or any SWE doing their jobs. Take it up with the system. I’m all for a system where we take these productivity gains, limit the profits and and use it to raise the living standard of everyone.",opinion,pre-labeled
+"I know there's no way to raise a will for it, but it is pretty dark that we're going to participate not only in the destruction of all of those jobs but also the degradation of the human experience even further.
+
+We've worshipped economies of scale for so long that we have finally found a way to remove human equity from the equation. And what's weird is that so far everyone is acting it out as though it's inevitable while being complicit.
+
+We're the stupid people you yell at the screen to in a sci fi movie at this point. And we're still like, ""surely that was the last hatched facehugger on the ship. Let's go find the eggs and sell them. That'll solve it!""",opinion,pre-labeled
+"Exactly, and I hate the mindsets like""well we can't put the genie back in the bottle"" and ""the tech is here now, can't do anything"", as if humanity isnt inflicting this to itself, and we arent able to decide, vote shit. Shows clearly and loud how our whole system has failed.",assertion,pre-labeled
+"What's your plan here? Are you going to vote to outlaw matrix multiplication? Where are you voting to do that? How do you imagine enforcement works? What's your mechanism for telling China that the people of Seattle don't like other people doing math for money and could they please stop?
+
+25 years ago tech nerds were the people shouting ""information wants to be free"" whenever someone tried to do something stupid that would only work if the whole world agreed to not do things they wanted to do and knew how to do. The fact that we're the ones feeling the pain of it today doesn't change the calculus any.",opinion,pre-labeled
+"Accountants aren't going to automate themselves out of work.
+
+Hmm you say that, a family member of mine is a ex-forensic accountant who now buys failing businesses and turns them around.
+
+He uses ""AI"" to automate a lot of the paper work and regulatory requirements. He gleefully tells me he uses AI for almost everything now. Whilst he's not automated himself out of a work, he's essentially removed the need to hire a bunch of people (accountants, assistants etc) and software engineers (for the integrations).
+
+It's both awesome and terrifying. AI really does have the potential to make a LOT of people unrequired. I've given it serious thought to retrain into a hands on trade - I gained some qualifications some years back when some cowboys did a really crappy job on my house so as an engineer, ""fck it I'll do it myself""",personal_anecdote,pre-labeled
+"The way I see it, the guy is why it's working, he knows what it takes to turns those biz around.
+
+I'm a SWE but recently I had to deal with some importing work, I was completely stunned as there were too many papers and certificates I had to look for or else I'm screwed, but when I talked to an expereiced logistic person, they said it was easy, only need to do that and this.
+
+Our company just make a jira clone in like a week, fully vibe coded, is it perfect like jira and can be used by millions? Obviously no, but for internal work, it achieves what it was set for, also we can freely modify, adding any feature as we want at anytime.
+
+Majority of software features aren't hard to implement, especially for personal uses, you don't have to care about scale, security and user experience, as long as it works, it works. Which is AI extremely good at.
+
+Really appreciate this story tho, been pretty lost recently, but gotta reaffirm my mind and look at more realistic side of things.
+
+Sry if my english is weird and doesn't sound right, it's not my first language.",personal_anecdote,pre-labeled
+I’m paying my accountant not just to prep my taxes but to be the person that accepts liability in my tax prep. And keeps me on track. That’s not really going away soon. Even small businesses have somewhat complex accounting needs that small changes can have moderate size effects on taxes paid. ,personal_anecdote,pre-labeled
+"Accountants aren't going to automate themselves out of work.
+
+Maybe not out of work, but I think an important part that people are missing is that all of those workers now can do their own automation, I'm already seeing it at my company, people from all sorts of departments are now vibecoding a lot of different tools to help with their job and automate a bunch of stuff.
+
+Previously that sort of automation just didn't happen or was incredibly slow because you needed someone with programming experience to get involved. Now it happens in a decentralized manner and very quickly.
+
+It probably won't kill those jobs but it will make companies need much fewer people in all kinds of support roles (such as legal, accounting, marketing, etc) than before.",personal_anecdote,pre-labeled
+"I think about this a lot too, my cousin works in corporate finance and their team got cut in half last year because some automated reporting tool replaced the junior analysts. Same story with my friend in marketing, her agency barely hires entry-level anymore because one person with the right tools can do what five used to handle
+
+The difference with software is we can see it happening in real time since we're building the stuff, but everyone's feeling the squeeze. Your point about accountability is spot on though, when things break someone needs to be on call at 3am and no executive wants to trust that to a bot
+
+What worries me more is the supply side, there was such a massive push for people to learn coding over the past decade that the entry-level pipeline is completely flooded. Other fields didn't get that same cultural campaign telling everyone to become an accountant or a paralegal",personal_anecdote,pre-labeled
+"Perversly enough, we will also replace ourselves sooner because in general we are used to picking up new technology quickly. So maybe an accounting firm where people are not as tech savvy is not going to create full agentic workflows as easy as a bunch of software devs can.",opinion,pre-labeled
+"I don't know, whenever I think of lawyers, accountants, etc., I see in my mind's eye how the vast majority of their work will be automated in the simplest possible way. It might be us who are affected by AI first and most visibly, but in terms of complexity, our work is the highest, out of which there might still be jobs in the future, transformed.",opinion,pre-labeled
+"A professional organization like doctors, lawyers and in some countries engineers have might be an easier to get buy-in for. Have an accreditation program, and get legislation to require accredited engineers to do anything dealing with PII, financial transactions, or anything else regulated.",assertion,pre-labeled
+"You are in denial. Software Engineers are the first to be targeted.
+
+Right now, we have Claude Code, not Claude dentistry nor Claude Accountant , there's a very logical reason for that.
+
+And if you don't understand why we have claude code as opposed to something else, that shows a lack in your intelligence.
+
+The people developing AI are most familiar with software development, not accounting nor dentistry . That's the main reason software engineers and cs majors are the first to be hit by AI, before the other professions. Plus, there is more data online for software development , than those other professions.
+
+The logic is very simple, yet you guys keep making cope posts like this one every week...",opinion,pre-labeled
+These people forget there's a bunch of free training data online about software development. It's so hilarious how supposedly smart people overlook the most obvious cause as to why automation is targetting this field first.,opinion,pre-labeled
+"There literally is agentic software for doctors that takes in things like lab results, presentation at physical etc. and references relevant guidelines and case studies to give proposed diagnoses.
+
+Things were taking off back in April even with weak models back then (o1 was already outperforming doctors and models got way better at biology since then): https://www.science.org/content/article/ai-starting-beat-doctors-making-correct-diagnoses
+
+And the regulatory hurdles are starting to be cleared too: https://www.bmj.com/content/395/bmj-2026-101186
+
+https://www.theguardian.com/society/2026/jul/04/nhs-ai-app-patients-appropriate-services-health
+
+You’re just ignorant to these developments because it’s not your field, your information bubble only feeds you new updates to Claude Code.",opinion,pre-labeled
+"In terms of complexity our work is the lowest. We freaking give free training data every single moment with GitHub and the like. Don't kid yourself.
+
+You know how AI is good with pure math unlike other sciences right now? It's cause the result has a defined conclusion and AI just has to go step by step until the defined conclusion is met.
+
+You have an engineer break down the problem and next thing you know, the individual tasks are very easy to accomplish.
+
+That's the difference. Defined input. And defined output. And very limited logical statements to get there (if/else if/loop). And an insane always growing training set.
+
+I'm not saying software engineering is the easiest. No. That's like claiming pure math is the easiest of the sciences. It's most likely not true. But for AI, it is technically the easiest to bring impact on.",opinion,pre-labeled
+"For medicine every interesting case ever has been published to journals which AI companies most likely stole + even without that, for 99% of cases agents can just be given access to an MCP which queries up to date clinical guidelines and it is likely to outperform human doctors (you can look up studies in Nature on it even with weaker models than we have now or look into recent Microsoft AI pilots).
+
+Medicine as a field has been moving towards being purely data driven and clinical guidelines oriented as opposed to being a vibes judgement call for a long time now.",opinion,pre-labeled
+"If your work is less complex than a lawyer's or an accountant's, then I feel bad for you.
+
+
+",assertion,pre-labeled
+"The difference is that development work gives faster feedback for correctness. Does it compile? Once run, does it show desired behavior? A legal brief may be full of errors that won't be discovered for days or weeks. Faster feedback means more iterations are possible, which makes it more effective.",opinion,pre-labeled
+"Say that first to many theoretical mathematicians finishing their PhDs right now. What a naive reply.
+
+The law profession requires lots of human interaction/subjectivity. You still need a lawyer as well to be in large court cases. It's mandatory.
+
+Imagine also the law field being as tolerant of bugs as the software industry at large. Lol",opinion,pre-labeled
+"
+Not to get all super political, but the law field is kind of in shambles where government agencies and the president basically ignore court orders and are convicted of multiple felonies and like literally nothing happens.
+
+I feel like that would qualify as the law field being tolerant of bugs... or at least just as full of them.",opinion,pre-labeled
+"""The law profession requires lots of human interaction/subjectivity.""
+
+This could apply to CS, as well or even accounting.
+
+In CS, you may get the ""correct"" end result as in it that it runs, but what the customer wants isn't just a 0 or 1 - it can be very subjective.",opinion,pre-labeled
+"Redditors working at bum f nowhere firms or attending bum f no name schools generally think they are solving the next cancer cure.
+
+Nothing in my career nor any of my peers I know can ever get close to the complexity of solving millennium prize puzzle.
+
+What OP doesn't understand what is considered high complexity for humans might NOT be considered high complexity for machines.",opinion,pre-labeled
+"The lawyers still have to show up in court though. I don’t think someone hiring a defense attorney would be comfortable with a robot fighting for them in a trial. Plus they have to convince a jury of people. The software related work can be automated, but similar to swe it’ll need babysitting to make sure it’s interpreting the law correctly, also ensuring the strategies it presents are valid and actually viable in court of law. It might take out paralegals though.
+
+More or less, I think it’s gonna turn any career path heavily geared toward software use, up to the next level higher to where they’re doing it less. In any white collar career path, there have been people given the same title as those with domain knowledge who’s main contribution has been software skills because they got in during a time the company/economy valued those skills higher, and it’s gonna be those people who’s job is at stake imo. e.g. there are people called accountants that are actually more so excel/SAP wizards who suck at the accounting side. Those are the people I’m talking about.
+
+But, being able to trust the ai and trust the people using it is going to still be a central idea to work. imo the more people relationship dependent and people trust building your career is, the better.",opinion,pre-labeled
+Ranks right up there with needing to think like a computer and then you start to see how changing the way things work for humans is the way lots of these things get replaced!,assertion,pre-labeled
+"Yeah for sure. It’s an unknown. I’m sure it’s going to have impact. But imo it’s gonna replace the software machinists and try to convert roles back to traditional form, some of those might be entirely automated, across industries, and many people will lose their job. swes got the rug pulled from underneath them without warning; as onto white collar across all industries. If it’s not ai, it’s offshore to finance it. I’m chunking the stream to relatively short term too, not talking about far future dystopia.",assertion,pre-labeled
+"99% of a lawyer’s job isn’t spent in court. If you can’t see how that doesn’t lead to a drop in demand for lawyers then I don’t know what to say to you. I also don’t think Jevon’s paradox applies the same way there as it might to software, most cultures aren’t naturally litigious and prefer to work things out, I guess US might be an exception there but even then, how many more lawsuits can there really be from law becoming more democratised.",opinion,pre-labeled
+"Law, accounting, etc. are incredibly mission-critical, compliance-heavy industries and will be the last to fully automate (because you need someone to blame if something goes wrong). I cannot see how you possibly think these roles are more susceptible to AI than SWE (famously the least mission-critical and most verifiable domain for LLM training).",opinion,pre-labeled
+"I'm not sure how long the accountability reason will stick around, though. Because you could say the same about driving, yet self driving cars are slowly getting legalized in more areas. If an AI lawyer eventually gets stats like how self driving cars are statistically far safer than human drivers, I think we'll probably see laws change. But it'll also likely be very slow, so they'll be safe for longer than we will be.",opinion,pre-labeled
+"Full self driving has been 2 years away for 15 years now ;) These industries move SO slow… they’ll convert at some point, sure, but way after SWE.",opinion,pre-labeled
+"You are missing the point, for loop automation you need training data, predictable units of work, and clear signals to drive the next iteration. Software Engineering has all of this already, and they are precise, but for example marketing, how do you create a loop for a marketing strategy today? All the signals you have are qualitative and hard to incorporate in a loop.",opinion,pre-labeled
+"the statistical model is very bad at giving accurate answers on laws and tax code, because laws are not written in a rigorous language. depending on the country, they are literally written to be ""interpretable""
+
+the model can write a test for code and immediately verify the output. it can't do the same with laws",opinion,pre-labeled
+"Yeah but it can reason about your case and pull up all the relevant laws, precedents, etc for a qualified lawyer to read and interpret. It can draft a document or fill a FOIA request. Basically do most of the stuff paralegal/junior lawyers do.
+
+Though obviously it won't go to court to argue a case and do more complex stuff thats open to interpretation so lawyers won't disappear completely.",opinion,pre-labeled
+Go talk to an actual lawyer. They are using specialized AI like Harvey for research. Lawyers provide accountability and legal representation and power of attorney. Lawyers are client facing and can be held accountable for mispractice in ways AI and tech companies will never be.,opinion,pre-labeled
+"For now, AI somewhere is probably working on possible solutions to accountability that no human can see…",assertion,pre-labeled
+Lawyers and accountants aren't that far behind. Anything that is easily written and testable is highly vulnerable. ,opinion,pre-labeled
+Open source code was used to train the models and our industry’s propensity to share code was also our downfall. Other industries have proprietary data and are beginning to lock out LLMs for their own inhouse models. Might be slower to adapt.,opinion,pre-labeled
+"Talk to an actual lawyer who is trying to integrate AI into their work, it’s not as simple as you say
+
+
+",assertion,pre-labeled
+"
+Until AI companies take full responsibility and liability for the mistakes their products make, we’ll always need people.",opinion,pre-labeled
+"As a lawyer, I haven’t found a strong use case for AI yet. We already automated our documents drafting decades ago using precedents. AI helps me change the party’s name faster, does that take my job away?
+
+Also, I think the biggest difference between software and law is that in software, you can test AI’s output. With enough testing time, you can fix AI’s output and determine if it works properly. In law, how do you figure out if AI fcked up? You can’t. You wait until years later when parties argue and sue before you find out AI worded something that gave the other party the advantage. There is no testing. Even lawyers right now, without AI, can argue with each other whether certain wording is better and for what scenario",personal_anecdote,pre-labeled
+Dream on. And you also answered the question why most folks are celebrating your downfall,assertion,pre-labeled
+"I agree. But the thing is, what to entry level people even do? What can I even do to kind of set myself apart, and make sure I get a decent job and don't get replaced in this economy?",assertion,pre-labeled
+Other than picking up a different proffesion that is not affected that much atm... honestly no idea... I am on the pesimistic side though...,assertion,pre-labeled
+"
+Yeah, and some of those are even more repetitive than SW engineering … like just know the text and apply strict rules 100s of times
+
+I think it’s going to be a though time, the era of blue collar is coming",assertion,pre-labeled
+"I don't think verbatim SWEs are the hardest hit. The work of a Data Scientist, for example, is 99% obviated away by LLMs.
+
+Lots of other white collar professions can be 99% replaced by LLMs. I don't mean the high-end ones like lawyers or doctors but those random office jobs that you can do with a BA in anything, will all go",assertion,pre-labeled
+"SWE is easier to verify I guess
+
+SWE are also more willing to use AI",assertion,pre-labeled
+We’re dogfooding it. The other industries are going to get ran over when we’re done.,assertion,pre-labeled
+Agents can write code to verify any other white collar job too..,assertion,pre-labeled
+"The difference is that for software and math, there is a verifiable output which can be checked to ensure the answer the model gave is indeed correct. In addition that answer can be checked virtually. This isn't true of many other white collar jobs.",opinion,pre-labeled
+Software output is not as verifiable as people think.,assertion,pre-labeled
+"Software engineering is kind of unique for having a work product that is large amounts of text, yet success is fairly objectively definable.
+
+If your job doesn't involve creating or consuming large amounts of written text, AI doesn't gain you as much: in short, if your day is all meetings. Now, we have AI that can go to meetings, but when meetings are your job, the job is often as much about persuading other people as it is about being right, and personality and relationships factor into that. AI hasn't mastered personality.
+
+You can be a software engineer and spend most of your day in meetings, but being right is at least part of your success criteria.",opinion,pre-labeled
+"The AI is relevant only in areas where there is no requirement of absolute accuracy in the processing of data. It does not matter what the volume is, LLMs cannot be used for legal work or accounting.",assertion,pre-labeled
+"There is 1 problem with that, humans make accounting and fat finger mistakes all the time. Accounting has tons of ways of checking work and accuracy, which means its something ai can do very well.
+
+There are tons of articles about it the accounting world is having the same thing as CS where entry level positions are disappearing as ai is handling the 80% of grunt work and then more experienced people handle the fraction of things that need experienced judgment calls.",opinion,pre-labeled
+"
+But the problem is that the analog of ""successful compilation and positive validation suite check booleans"" doesn't exist in law and accounting (which deals with tax law). Well, it does for some parts at some level. Such as data gathering or report creation.
+
+But, have you read one of those law books? They are full of vague, and often contradictory, statements. There's a reason why trials and bankruptcies takes years to sort out. Is about generating a consensus in whoever is deciding out of ambiguity, or getting the other guy to blink first. Law, including tax law therefore accounting, cannot be reduced to a successful lean compilation.
+
+I read the tax law for expats myself to solve some doubts after different accountants gave me different answers. I reached the conclusion that the taxman can take me to trial regardless of what I did if they wish to do so.",personal_anecdote,pre-labeled
+"guarantee companies like Intuit have LLM-generated code in their software now
+
+
+",assertion,pre-labeled
+"AI has been used for legal work and accounting for longer than chatgpt has been around, I promise you. heuristic models for financial forensics, fuzzy searches and analysis on lexis nexis, etc.
+
+
+",opinion,pre-labeled
+"The biggest reason software is vulnerable to AI replacement is because most of it is highly verifiable. That is to a large degree, working code can be automatically checked by a computer. For example, we can write a test suite that conforms to a spec, then measure if a program passes or not. Comparatively it's harder to do that with a legal brief or marketing copying.
+
+Most frontier AI today works on RLVR: reinforcement learning on verifiable rewards. The key word is ""verifiable"". It's easy for a frontier lab to take a model and hill-climb its performance on easy to verify programming tasks until it becomes near super human. For something like legal briefs, you can do stuff like reinforcement learning based on human judgement, but it tends to be slower and messier, and doesn't seem to have a straight shot to rapid improvement the way RLVR does.",opinion,pre-labeled
+"A good software product isn’t gonna be easily verifiable from past data. Sure, individual tasks might be but not the overall direction, no one is one prompting their way to a good product. There’s a reason why all the AI lords keep making clones of existing products or mashing up multiple existing products (like with games) or make the most below average video games in a specified genre possible.
+
+And yes, this does shift SWE role into more of a builder role but engineering perspective is still very valuable there. Pure non-technical PMs in my experience don’t really have a good grasp on what is the realistic path forward given constraints of the business.",opinion,pre-labeled
+"Six months ago? I would have said no. Today, frontier models are shipping a lot of embedded code. 
+
+I think one difference is earlier AI was heavily dependent on the public corpus. So things like webdev was where the training went, because it’s the code that was publicly available on GitHub, while most embedded is in internal corporate repos. However the labs have been spending billion on proprietary data sets, especially in areas without good coverage, and I know for a fact that embedded is near the top of their list.",opinion,pre-labeled
+"
+I think it is. If you are looking anywhere, embedded, RTOS is where money will be. There will be new tech and need for new software and AI is not equipped to solve those problems. People speak of x25, x50 AI improvements but I find that bogus. It already slows down but is at impressive place. Good enough for many tasks. Still, having myself doing some AI assisted training, it still makes mistakes with C, C++ code, leaves many vulnerabilities.",personal_anecdote,pre-labeled
+"
+Software has the ability to be verifiable, but almost no one does this outside of very specialized spaces. Writing a unit test is not actual verification, unless you're doing formal verification and formal proofing you're not actually verifying much other than specific cases. Tests are tools for helping you iterate and make sure base functionality is working. Formal proofs actually prove behavior. I don't know anyone using AI to write Ada, because I don't know anyone actually writing Ada.",opinion,pre-labeled
+"This isnt the same as adopting a new JS framework. I see my colleagues, it hurts their ego deeply that almost all programming knowledge advantage they had over junior developers is being erased.",personal_anecdote,pre-labeled
+"I am not observing advantage over juniors being erased (unless we are talking about very weak seniors). It’s just more of Dunning-Kruger, juniors don’t know what they don’t know so they think they’re at the same level with Claude.",personal_anecdote,pre-labeled
+"Also this objection isn’t relevant to what I’ve said. It’s about people being eager to adopt new tech in SWE, not what the tech is capable of or what gaps it closes between what roles.
+
+
+",assertion,pre-labeled
+"I work as an AI Engineer trying to automatize the job of other white collar workers. Before you ask, I did not sign up for this when I got into Data Science years ago before LLMs or transformers, but it is what it is.
+
+In my humble opinion, the issue is that to automatize coding (not software engineering!) all data was there from day 1, up for grabs. This is not true for any of the workflows I try to automatize in finance/insurance. Half of the business rules only exists on the heads of the people performing the job or, for that matter, obscure documents. Policies are different between companies, between countries, even within companies in the same country (M&A) or in different countries because of inertia or different legal frameworks.
+
+If you look at the frontier labs or any company doing big money with AI (LLMs or not), as primary product or as enabler/differentiator, you see the biggest moat they have is simply data. Good access to data, good data cleaning and enhancing pipelines.
+
+Despite being a broken record in this field for the last 10 years, absolutely nobody wants to put work into gathering data. They think process data, the by product of their operations, is good enough. It isn't. For the product manager or CTO of the moment, It's all about trying to get that ellusive (because non-existent) low-hanging fruit of applying the last model, the last agentic framework. We will vibe the evaluation. It looks mostly right or right enough in our 500, sampled God knows how, case list. It never ends. It only appears to be good enough for a brief moment. It will always collapse under the weight of it's overpromising and underdeliverying reality, but for the eyes of the corporative beholder doing curriculum driven work, it will count as a success. 
+
+Beyond the usual software challenges when dealing with legacy and fragmented systems, automating anything is hard work and requires lots of painful manual annotation. It requires a big deviation of human resources to support this work. I have never seen such a commitment. They think some new software with the latest AI ideas will get it automagicaly. That's the truth nobody wants to hear.  As far as coding is concerned (and partially software engineering), we did this job years ago and posted it online for free.",personal_anecdote,pre-labeled
+"Think a lot of people are underestimating how crucial data warehousing is when it comes to general automation. Especially mid level management and non technical directors. Im a de in analytics/ds and i think prompt engineering your way to analytics is pretty rough without very good data models with enough context for llms and agents to reason with. One business process of many can live across 10 source applications (and across hundreds of non technical peoples brains, which makes it hard for ai to do said integrations) and integration of all this is a prerequisite if you want any sort of accuracy to come with AI-built analytics and whatnot at least as far as data goes",opinion,pre-labeled
+"Does this mean the end of open source? I.e the only way for professionals to ""gatekeep"" and defend their jobs is to either move their AI workflows entirely to local open weight models or stop using AI entirely, while open source movements eventually get polluted with the self referential cycle of AI in, AI out?",assertion,pre-labeled
+"It won't replace all white collar workers, it will devalue them which is what corporate America wants.
+
+Ultimately it comes down to whether businesses trust big tech to hold all of their cards. Even if AI was better at every job, you are basically letting another company control your business. When you are totally dependent they can use that leverage against you through pricing or IP. In order for AI to be profitable people have to suffer.",opinion,pre-labeled
+"They said the same thing about Microsoft in the early 90’s.
+
+If we give them control of all documents and emails, we’d be controlled by Microsoft….thats what they said and nothing stopped it.",opinion,pre-labeled
+"That’s different. Microsoft was never authoring the documents. It was creating the tooling to author documents. That’s not the fundamental value creation.
+
+
+",opinion,pre-labeled
+"Hm. I disagree. Clippy was a thing. It definitely helped you shape documents
+
+
+",opinion,pre-labeled
+"for MS Office, which seems to be the main thing OP is talking about, it's not.
+
+MS Office cannot reliably cause you to permanently lose access to your documents. It does create dependence, MS can make licenses extremely expensive once they captured the marketshare but that means you would have to switch to alternative tools like LibreOffice, which may hurt your productivity but that does not mean MS would have a chokehold on your business. A better allegory would be cloud services offered by AWS, Google Drive and Azure but the anxiety regarding them is already present and alive. They are literally the reason why EU is pushing for alternatives.
+
+Even with cloud, the prices are not heavily subsidised to encourage adoption. LLMs are supposed to be significantly more expensive, they are just being heavily subsidised for users by burning money. It doesn't take a genius to see AI companies are planning to ramp up the prices and enshittify their products once AI adoption is high enough.
+
+Companies can actually circumvent this by hosting their local models but then they need to purchase expensive GPUs and also ensure LLM safety, installation and maintenance by themselves. Is it doable? Maybe. But a sensible business decision would probably just using humans to do majority of the work while using an LLM for specialised cases like discovery of a zero day vulnerability, something that requires extremely repetitive brute-forcing approach, things that need urgent intervention in the middle of the night and so on. Maybe they could install local LLMs to actually cut down a lot of the workforce if GPU and energy costs come down by a lot, who knows?",opinion,pre-labeled
+"Yeah, basically all work is cooked. For physical work it's just a matter of getting robotics and production up to speed first, which will take time, but pretty much all office work will be gone in 20 years. In 10 years you'll start to really feel it, coding will just be one of the first to go because it's such a money saver for companies and AI is really good at code.
+
+But yeah, accounting and stuff can be basically entirely automated, it's just a lot of slowness in corporate, but in 10 years when AIs are like 20-50x more capable than now, it wont really be a problem.. HR is already semi-automated as anyone who is trying to find a job right now can attest to. And when there are less office workers, there will be even less need for HR, so also cooked.
+
+As you said with some other office work, they are already pretty much gone.
+
+Customer Service and technical support has also been hit really hard, and in 10 years those roles are just gone.
+
+I also think Medical fields will be hit really hard in the coming 20 years. AI is already starting to diagnose better than trained professionals and we see AI even entering the surgical field with specialized robot arms and such that can do routine surgeries or close up and such to speed things up.
+
+Then we have stuff like transport which is constrained by production of the hardware, but the savings companies can get here by replacing all cab drivers, all truck drivers, farmers can use autonomous plows and such. That will drive the change, because the savings to be made are in the trillions of dollars range.
+
+Also expect a lot more automation to be made in household robotics, removing the need for housekeepers, cleaners, dishwashers, reception workers, fast food workers, even servers.
+
+blue-collar work will be last, but when other fields starts to lose their workers, those workers will pivot to physical labor, driving the price to the bottom for those tasks. Ironically it might be that its cheaper to just use human workers instead of producing the robots to replace us here.",opinion,pre-labeled
+"I truly believe we are more cooked because we never tried to protect our field. A field when someone with a psychology degree can do a 6 month bootcamp and declare to be software ""engineer"" is laughable.",opinion,pre-labeled
+"You're not allowed to touch a water pipe without 6 years of work-study and exam, but you're allowed to touch critical software systems without any licenses.
+
+
+",opinion,pre-labeled
+"Is AI just like a real life hack?
+
+Like if IP regulations had intervened, how much more expensive would AI have become compared to now, how much of this advancement was burdened by theft and exploitation that would’ve otherwise killed any other commercial operation",assertion,pre-labeled
+"Yes, tech moves faster and the C-suites at tech giants are all bought into the idea of mass workforce replacement in the near future. Other industries are slower to adopt technology and each individual non-tech worker is less likely to be as effective at using AI to automate their own job away. In tech we have the worst of both worlds, utterly psychotic C-suites and workers who are very effective with AI.",opinion,pre-labeled
+I do think the AI elite are in a psychosis and haven't thought the full extent of their actions through. Reminds me overly confident children at times.,assertion,pre-labeled
+"You vastly underestimate how effective non-tech people are with AI. ""Mastering"" AI is an easy learn skill.",assertion,pre-labeled
+"I don’t think so. Go look into an auto or home insurance company that isn’t worth $1 billion+ and you’ll find some of the most incompetent office workers you’ve ever seen. 
+
+You’re overestimating because you think most people work for the Fortune 500.",opinion,pre-labeled
+"There are 130M people in the US employed full time Obviously there will be some that do things well and some that don't. On average however, the typical corporate office worker uses AI well. Because it's pretty easy to figure out.",opinion,pre-labeled
+"using it well is not the same as using it so well enough that you’re insecure over your own job
+
+
+",assertion,pre-labeled
+"What does it mean to do AI “well”? And what evidence do you have that most office workers use it in that way?
+
+You’re speaking very matter of factly on this and I simply can’t believe most of the workforce is using AI “well”. Most don’t even know what an agent is and use it as glorified search.",opinion,pre-labeled
+"In my company of 650 people we have a host server for vibe-code projects, launched in early summer. There are 300+ projects already, from local tools for HR to sales analytics to MCP server with products search for AI agents. Almost 1/4 of non-programmers in the company create their own projects, to the point where one of project managers created a whole vending machine business branch of his own design and production (including apps and backend programming + machine construction).",personal_anecdote,pre-labeled
+"Sure thing, there are multiple B2C/B2B projects. Client/vendor chats hub, wishlist, gifts calendar with the optimal discounts, etc.
+
+Other companies ask if the technology is re-sellable. The economic impact is obvious, but the base tech can't be replicated easily: it require both external AI integration + internal database access.
+
+edit: the vending machine project is in the 30 locations already (it's profitable, at $2.5k/month per machine, $15k/month revenue), with plans to put 200+ within the next six months.",personal_anecdote,pre-labeled
+"In the long term yes. In the short term, many companies’ books are a mess.
+
+FP&A workbooks are held together with tape and bubble gum. It’s less comprehensible than code is, which is why coding is on the chopping block first.
+
+There’s also not a clear signal that nixing a bunch of SWEs was a great decision. Or that if it was a good decision, it was because of AI and not over staffing.
+
+Also SWEs are likely 25% more expensive per head than finance guys. All else equal if you can nix a swe or an accountant you’d nix the swe.",opinion,pre-labeled
+"They’re all cooked
+
+Doesn’t make tech any less cooked. It makes tech more cooked because these other fields aren’t able to absorb the outflow of current/prospective software devs, and vice-versa
+
+But yes, software developers are positioned with the expertise to be early adopters of the tech. So we are the ones complaining most at this point",opinion,pre-labeled
+"Yes, as a civil engineer I've seen Claude and chatgpt can make floor plans, structural models, etc, in minutes, maybe AI can't replace all the civil engineers, but a civil engineer with AI maybe will replace 5 civil engineers, this just started",personal_anecdote,pre-labeled
+This is the argument I make to my non-techical friends that think AI will only replace software engineers. One of them works in a call center and seems to not be worried lol,personal_anecdote,pre-labeled
+"Software is in many ways simpler than other fields, because you're directly interacting with a computer. There's also a huge body of training material in the form of open source software.
+
+When a coding AI hallucinates, it's rapidly corrected via an error message or obvious bug. If a legal AI hallucinates, you might not find out until the judge censures you for flinging nonsense. One example was a legal AI hallucinated citations and the lawyer was too lazy to check before submitting it to a judge.",opinion,pre-labeled
+"Yeah…so.
+
+Proper white collar work isn’t measured on how many lines of XYZ you produce.
+
+“Productivity” in those fields generally requires judgment, taste, and relationship management.
+
+That’s why AI adoption has been such a wet fart for everything other than coding - when they automated factories, it didn’t actually hurt salespeople, marketers, project managers, designers, or mechanics.
+
+It was only the people who built the cars who got screwed.",opinion,pre-labeled
+"Out of all the takes in the thread, I agree with yours the most. I'll just add I don't think swe jobs will be completely dead either but swe tasks will. Just like you said other jobs aren't ""task"" jobs, they involve tasks but the primary job is a non verifiable business goal. That's where I think swe will end up. Primarily responsible for a) innovation of products b) accountability for maintainance of products. The more cooked job imo will be non technical PMs
+
+
+",opinion,pre-labeled
+"
+Idk. I'd trust an AI marketer more than your typical marketer. Or an AI PM more than a real PM. Just saying.
+
+It sucks, but quite a few decision making roles will get automated as well. Not just the task roles.",assertion,pre-labeled
+"but ai can automate judgement and thinking, that's the point
+
+
+",assertion,pre-labeled
+"“AI” might be able to do that - LLMs cannot do so and will never be able to do so, because of how they’re designed.
+
+High paying SWE jobs that consist of someone else telling you what to make and how to make it, followed by someone checking what you’ve made, are dead.
+
+Even once the frontier labs collapse, they’re not coming back.
+
+There will still be a pipeline to the “deciding what to make,” “deciding how to make it,” and “checking what’s been made” jobs…but they’ll pay like any other entry level role, now that code production itself has been so devalued.",opinion,pre-labeled
+"Software engineering is largely about constantly making educated decisions based on our knowledge about thr problem domain and some initial vague spec or request that was provided by someone who may or may not know what they actually want or are asking.
+
+AI helps with some of that but we should generally be very mindful about what decisions we can offload to a AI model or it'll eventually bite us one way or another. ",opinion,pre-labeled
+"Agree, 100%.
+
+The main thing LLMs figure to do is eliminate the SWE roles that aren’t proper knowledge work - like how typists were wiped out by word processors, but we still have lawyers and paralegals.",opinion,pre-labeled
+"LLMs are doing it right now. They use language and contextul learning, basically they can reason.
+
+",opinion,pre-labeled
+"Software is in many ways simpler than other fields, because you're directly interacting with a computer. There's also a huge body of training material in the form of open source software.
+
+When a coding AI hallucinates, it's rapidly corrected via an error message or obvious bug. If a legal AI hallucinates, you might not find out until the judge censures you for flinging nonsense. One example was a legal AI hallucinated citations and the lawyer was too lazy to check before submitting it to a judge.",opinion,pre-labeled
+"very bad take
+
+
+",assertion,pre-labeled
+All cooked at different rates and to different degrees of doneness. Ask your friends at FAANG if they are writing any code these days. How much longer do they get prompt for that high pay? Devs will still be needed but not in the same numbers.,opinion,pre-labeled
+"coding is a small part of being a dev.
+
+
+",assertion,pre-labeled
+"Coding is a big part of a junior dev’s work. And the non-coding work of senior devs is getting automated away too.
+
+
+",assertion,pre-labeled
+"Software Devs are the most tech savvy which means they can easily find 1 dev to do the work of 10. It's going to take longer in other areas. All dev jobs won't be wiped out, like like farm mechanisation didn't eliminate all farm workers. We just have 1 farmer doing the work of 100 previously, the same will be true here.
+
+
+",opinion,pre-labeled
+"I working in accounting and finance for 7 years before becoming a SWE. Yes, they are indeed cooked. They just don't know it.
+
+
+",personal_anecdote,pre-labeled
+"even in technology sector, the marketing, product management, go to market, customer service, techincal support will shrink in terms of number of people employed
+
+A lot of finance, law is cooked. they do not want to acknowledge it. they are less tolerant of mistakes. so you will have to come up with tools/workflows that minimizes mistakes",opinion,pre-labeled
+"We are 4 years into the 6 months until all software jobs are replaced. It's not going to happen.
+
+But to your broader point: The one job where LLMs have gained traction is in the software development spectrum. Likely due to the open source data that models have to train on and the general acceptance of bugs in the system.
+
+It hasn't picked up in other areas due to lack of information or taste required. Also if someone messes up in Finance or Legal those are very serious areas to misstep in and come with harsh fines and jail.
+
+-----
+
+Also software people tend to work in more tech driven fields, so a lot of people just want to play with the shiny new toy. It's like Svelte or Vue or Angular, all the hype when they first were released.",opinion,pre-labeled
+"Coding jobs are being replaced and will continue to be so. There is nothing to suggest engineering becomes extinct but it may be a case that only the most skilled survive as they have the traditional SWE skill and, due to their aptitude with tech that allowed them to become the most skilled, they will also be highly skilled with AI, meaning they can work a lot faster.
+
+Also, I think a lot of people are only seeing AI as an augmentation to SWE and not realising that engineering AI systems will be in huge demand in future - semantic analysis, device intelligence, security intelligence. I suspect it is really only just starting. I think we are possibly going to see a future were engineers are in massive demand whereas coding as a profession is completely obsolete - they were only doing that because seniors didn't have enough time to do all of it, which they can now delegate to AI due to their skill level/domain knowledge.",opinion,pre-labeled
+"I don't see coding jobs being replaced, to do that you would have to trust the model output fully, which no reasonable company is doing.",opinion,pre-labeled
+"People are saying only 1% of the job was writing code. Majority of it is talking to stakeholders and making architectural decisions, and always has been.",assertion,pre-labeled
+"I think that really depends on the type job you have. Many of the senior and junior people working on our product before AI were spending more than 50% of their time coding. We have architects, principal and staff engineers plus a fairly technical product owner to do the rest. I typed in very little code before and only a tiny tiny amount after getting comfortable with AI tools",personal_anecdote,pre-labeled
+"Yup, and those middle men are about to be removed from the process. Time will tell.",assertion,pre-labeled
+People who say that haven't produced anything of value in a decade. We get paid to write code.,assertion,pre-labeled
+"what?
+
+No we get paid to solve problems. Writing code was just one of the mediums to do so.
+
+Now that medium is shifting. Now we get paid to write agentic systems and proper orchestration in order for AI not to shit itself
+
+And one medium that has not change, as the other commentor said, is consensus with non-technical stakeholders and abstract architectural analysis. That is a HUGE component to solving technical problems.
+
+If by next year the only way to create software was to pour spaghetti down our pants, you wouldn't say ""we get paid to shove rigatoni in our jeans"". No we get paid to solve problems. The medium is simply a means to do so.
+
+Hence why software engineering is not going away, just as civil engineering has not gone away since starting thousands of years ago no matter the changes in mediums and tools and methodologies.",opinion,pre-labeled
+"What you wrote is a bunch of horseshit that gets propagated online by people who don't know anything. Software engineers are paid to make software. To do so requires one to understand how software is made, and it is made by writing code. So we get paid for knowing how to write code.
+
+The we get paid for ""solving problems"" is a pointless abstraction because we can only solve problems with software. If software isn't needed to solve a problem, nobody comes to us for anything.
+
+When it comes to talking to stakeholders, it is a minor part of our job. There are generally project managers and business system analysts that take care of working with stakeholders on day to day. We may get pulled into some of these meeting if the bsa needs us, but its generally expected for them to protect the devs and have them focus on coding.
+
+Sometimes we spend a day or two out in the field to understand how the software is going to be used. And there are demos on regular intervals to make sure we can course correct. But in a typical multi-month project majority of the time its about writing code.
+
+When it comes to architecture, those decisions do not take as long as implementing them. Typically devs do not re-invent the wheel. We use the same tried and true solutions as the ones in the past, and maybe once in a while introduce something new. Maybe there are some proof of concepts/prototypes that are written in the beginning to see how things work, but that's just as much writing code as architecture.
+
+So any time I see people say ""1% of the job was writing code"", I assume the people who say that are parroting the opinions of influencers who haven't done anything in a decade.",opinion,pre-labeled
+I work in a department which will be cut off once we'll finish our current task (refactor of a big mobile app) - in February most likely. That's 1/3 of all mobile programmers in the company. We aren't needed in these numbers in the situation where our output is x5 of what it was before this year.,personal_anecdote,pre-labeled
+"That sucks, but also February is a long ways away, the AI companies are getting scared and losing funding. They are about to have to jack their prices up exponentially ",assertion,pre-labeled
+Do you? I don't fully trust humans. I've met quite a few developers who I trust less than Claude,personal_anecdote,pre-labeled
+Yes a human can learn and also understand human emotions and feelings ,assertion,pre-labeled
+"Thats not relevant to the comment youre replying to
+
+Just because they use ai doesnt mean its right first time",assertion,pre-labeled
+"> I don't see coding jobs being replaced,
+
+This is the comment I replied to. 100% of coding is now done by models.
+
+It doesn’t mean jobs are being lost, but they absolutely are being replaced. The job I did a year ago is gone. What I do now is completely different. This experience is not unique to me.",personal_anecdote,pre-labeled
+"And ive seen frontier models do stupid shit and at times I give up and write the code myself manually. This experience is not unique to me.
+
+I think the worse a developer you are the more impressed you get by these ""amazing models"" because you lack the critical ability",personal_anecdote,pre-labeled
+"Cope.
+
+A year ago I only found AI useful for questions and adhoc sql queries. 6 months ago it wrote a lot of my code but there were still times when I had to do it by hand. Today I never do that. I tinker with the designs and prompts and workflows but I don’t write code by hand.
+
+Maybe what you say is true. Maybe you are an exceptional programmer and not even today’s frontier models can code faster than you in all cases.
+
+But models keep getting better. Are you gonna bet that in 6 months they won’t get there? 1 year? 2 years?
+
+Short of a world where we intentionally decelerate or ban AI, thinking that you will still be coding in any meaningful capacity is pure cope.",personal_anecdote,pre-labeled
+"I didnt say I could code faster than the models did I? I said that they still make mistakes and need guidance. You admit yourself you still do the design work? How is that not still engineering?
+
+And let's run with your ""just wait 1 or 2 years from now"" (not like that keeps being repeated constantly around here BTW as if you doomers have to keep moving the goalposts because you're so disappointed you havent been replaced yet)
+
+Ok so in 2 years models are perfect.. what does that even mean? Who understands the system? All devs just replaced? No one knows the system? No one knows the inherent tradeoffs and ""dont touch that thing""?",opinion,pre-labeled
+"4 years ago ChatGPT didn’t even exist.
+
+No one then was claiming “6 months until all software jobs are replaced.”
+
+I’m not even sure I’ve seen anyone significant make such a strong claim in the last couple years?",opinion,pre-labeled
+"Dario has been saying it for two years now at least.
+
+However everyone seems to ignore something. Coding has rules, you can compile it, see if it works etc etc.
+
+Me making a document for Boeing that is Itar restricted means AI can't take my job.
+
+It also seems to actually suck at documents. It talks like a smart person that is mildly retarded, and has huge flaws in world model logic.",personal_anecdote,pre-labeled
+"I don't see it taking my job, but I see it reducing entry level jobs. I don't see it gettinguch better than it is now. Been pretty stagnate for 3 months.",assertion,pre-labeled
+"
+Opus 5.5 came out less than two months ago, that was a major jump at that price point.
+
+Seems like all of OpenAI, Anthropic, and GDM have far stronger models than what they’ve released so far coming in the next month or two, as well.",opinion,pre-labeled
+"Fair, but every pronouncement about white collar work in the last couple years coming from AI companies has ended up missing the mark or worse a lie that even they do not really believe. They are heavily invested in selling the idea that companies using their products will be able to quickly if not immediately recoup their costs by laying white collar people off and they feel zero compunction to not to make the most bold-faced lie possible",opinion,pre-labeled
+"""those are very serious areas to misstep in and come with harsh fines and jail"" - if companies ship slop that goes wrong and causes major disruption and inconvenience or danger to people, criminal charges will be coming. I think it is only a matter of time.",opinion,pre-labeled
+"Nobody ever claimed 6 months. Well I mean nobody credible.
+
+What has been predicted is a long term decline in jobs. Long term can mean 5 years it can mean 20 years. But it's not a matter of if it's a matter of when.",assertion,pre-labeled
+I’d say no because we put all our thinking in repos whereas most business people will be way more resistant to sharing knowledge processes. And there’s lots of variation. I think the issue will be when there starts to be more “Intelligence as a service” type systems.,opinion,pre-labeled
+"It's an interesting and somewhat bitter question. I think there are several reasons why computer science might be particularly hard hit by AI. However, contrary to popular belief, I don't think the main reason is that current models are inherently better at computer science tasks than at tasks in other white-collar jobs, whether because of the availability of open-source code, tighter training and feedback loops, or anything along those often-invoked lines.
+
+One major factor is simply that many other professions aren't fully digital yet. Their workflows may involve looking things up in physical documents, dealing with paperwork, navigating fragmented IT systems requiring authorization, or any number of other mundane obstacles that make AI integration difficult. Software engineering, by contrast, is already a highly digital profession, and developers tend to be technologically inclined early adopters who experiment with these tools without needing much encouragement or instruction.
+
+As a result, deploying AI in a software engineering organization may require little more than management giving the green light. In other white-collar professions, achieving comparable adoption might first require extensive digitization projects, workflow automation, employee training, organizational restructuring, and so on. The difference in impact may therefore have much more to do with the ease of deploying AI than with differences in its underlying capabilities.
+
+Another important factor is how difficult it is to demonstrate that a model can actually perform at a high level in a given field.
+
+In computer science and mathematics, results are often relatively easy to verify, or at least there are well-defined criteria for correctness. This is partly why we have things like the Millennium Prize Problems. Where are the equivalents in law, accounting, or other white-collar professions? I'm sure these fields have plenty of difficult and unresolved questions, but I suspect many are not the kind where a model could produce an answer and everyone would agree, ""Well, that's it. The problem has been solved.""
+
+Instead, the answer would likely be subject to debate, with experts offering conflicting interpretations and opinions. A model might produce the best answer that could reasonably be given, yet still face extensive criticism from scholars who simply disagree with its conclusions. And much of that criticism would likely be interpreted as evidence of AI errors, hallucinations, or ""slop,"" rather than as a reflection of the ambiguity and disagreement inherent in the profession itself.
+
+I've actually heard people invoke precisely this ambiguity as an argument for why AI won't be able to perform certain kinds of professional work. But that seems to overlook an obvious question: how do humans perform that work? If a field is genuinely ambiguous, with multiple defensible answers and no single objectively correct solution, why should that necessarily make it harder for AI? In some respects, it could even make the task easier, since there are multiple acceptable answers rather than one narrowly defined correct result.
+
+Of course, this also means that assessments of AI capabilities are highly vulnerable to human biases. We can already see this happening in mathematics, arguably one of the most objectively verifiable disciplines. As models become capable of producing results that are increasingly difficult to dispute on technical grounds, some criticism shifts toward less measurable objections: the proofs are ""slop,"" the work isn't ""real mathematics,"" the model doesn't ""actually understand"" what it's doing, and so on.
+
+Now imagine how much stronger these dynamics could be in fields where correctness is substantially more subjective and ambiguous.
+
+My broader point is that we should be careful not to confuse how quickly AI is adopted with how capable it actually is at doing the work. Computer science may be among the first professions to experience major disruption not because AI is uniquely good at programming, but because software engineering is unusually well positioned to adopt, integrate, and objectively evaluate AI systems.",opinion,pre-labeled
+"Let me just offer my perspective from data/business analytics. AI helps a lot to produce higher quality reuseable code that we didn't have the time to write previously. However it cannot independently handle any actual analysis task that an expert can't write the SQL query for just as fast. When there's thought and nuance and context involved, it fails miserably. It spits out a lot of 'insights' (sometimes correctly calculated, sometimes not) but has no clue what is actually important, or what will touch whose sensitivities. You can spell it out of course, but then you've already done the thinking.",personal_anecdote,pre-labeled
+"Honestly, these are turbulent times but like every era in the world, some people will struggle and others will thrive.
+
+Just focus on surviving and thriving, thinking too much about it is a dead end",assertion,pre-labeled
+"laborers don't have anything to sell other than their bodies and brains
+
+""focusing on thriving"" is the capitalist motto that ignores the reality of what is happening",assertion,pre-labeled
+"Even in times like the great depression, people did what they could to survive. The internet makes it feel so big and heavy like the economy is some unmovable object and for some who are stuck, it can be, but you can always find ways to improve your situation. AI doesn't look like it's going to replace everything overnight but it will certainly change how your job functions and we must adapt with it.",opinion,pre-labeled
+"Pretending that we are approaching a definitive employment transition is naive. It's emerging tech, companies are exploring viable options. Layoffs, rehires, AI implementation, token costs exceeding wages, requirements to ensure a pipeline for future expertise, etc.
+
+Workers aren't going to disappear, it's just a system in a fluctuating state that will eventually find a new balance.
+
+Covid gave devs and tech a false sense of security and importance. Roles that were traditionally market value 60-90k were being paid 200k+. The COVID tech surge died and we are seeing devs panic that they overpaid for an education that isn't getting them the returns or job security they expected.",opinion,pre-labeled
+"Only thing is, in other industries like construction and finance everything has to be right when it goes out or.. a bridge collapses or something.
+
+In software we just change a line or two and redeploy. It's easier to replace coders with this stuff.",opinion,pre-labeled
+"Yeah, that’s not true, like, at all.
+
+There are critical software systems where an outage means lost lives, or untold damage either to the organization in question, its users, or the other orgs that depend on it in the case of critical IT infrastructure.
+
+If anything the inverse of what you said is true. Because software is so scalable, the bugs are too. The actual bug may be an easy fix, but it doesn’t follow that the consequences for that bug are small.",opinion,pre-labeled
+Well of course there are specific cases of high importance features; you can single those out in any industry. On an average day in software though? Low importance. Everything in construction is critical by default.,opinion,pre-labeled
+That is not true at all. Just look atbthe construction quality of things that were built recently. Most workers are not building scryscrapers there too.,opinion,pre-labeled
+"
+Yeah, but truly critical systems are few. I worked in big tech, in a major cloud provider. This could be team-dependent but, believe me, they didn’t give a shit about quality, despite their product being depended on by hundreds of thousands of virtual machines. They thought they could get away with it by throwing more folks at production support. You’d think that such systems are critical: if they can be treated as I described, then they aren’t.",personal_anecdote,pre-labeled
+"It depends a lot on what you consider to be critical.
+
+I wouldn't consider a low traffic, redundant bridge to be critical infrastructure. It may kill someone in the event of catastrophic failure, but death is just one of many negative outcomes that are possible, with most of them being less severe.
+
+When AWS, Azure or Github go down, every second they're down is a catastrophe. You might say, ""most systems aren't that important"", and yeah, they usually aren't, but that doesn't mean failure is consequence free. The consequences could be deferred, and take the shape of customers abandoning ship for example, or they could be more immediate.
+
+On the c-suite side of things, I also wouldn't interpret their casual attitude towards QC as evidence that QC doesn't matter. Public infrastructure and IT infrastructure are funded and maintained within different environments, and have different incentive structures.
+
+I see your point, I just don't think it's really an apples to apples comparison.",opinion,pre-labeled
+"The irony is that the leadership of the teams building the product I was alluding to certainly would have told you it’s critical, if you’d asked them. They just didn’t know how to bridge that with proper software engineering. It is largely a culture of ‘visibility’: get the stuff out there as fast as possible to be able to claim delivery and business impact and aspire to the next promotion. That is why, frankly, I’m not too sad to see software engineering (at least, coding) taken over by AI. I will not miss the untested spaghetti code written in haste just to satisfy the next promo cycle.",personal_anecdote,pre-labeled
+"That can be true, but isn't necessarily true across all bugs pushed to prod. It's easy to come up with examples that are detrimental to a business should the end product fail.
+
+Costs are not limited to binary outcomes (life/death, success/failure). Resource costs are universal, and the complexity of a project can compound a failure into massive delays/lost revenue. Customer goodwill is a resource, if you keep pushing bad code and they can't reasonably rely on your product, they find an alternative. Even in the gaming industry this is true, constant updates and changes are fatiguing on the player, hence batched updates and ""seasonal"" changes by experienced studios.",opinion,pre-labeled
+"Well of course there are specific cases of high importance features; you can single those out in any industry.
+On an average day in software though? Low importance.
+Everything in construction is critical by default.",opinion,pre-labeled
+AI isn't going to mess up a standard doorframe. It's going to get the amount of concrete wrong or the load balances in buildings or the routes in the road you have to dig up to lay cables.  In software unless you're doing the billing or account migrations (how often do you do those?....) it's fine.,opinion,pre-labeled
+I guarantee you that someone is out there writing safety critical software for life-critical systems and assuming that their static analysis tools are going to prevent any and all runtime issues.,assertion,pre-labeled
+God why do people keep saying this stuff. That stuff exists but 90%+ of software is a fucking food delivery website or a smart cat feeder. When's the last time you worked on something critical?,opinion,pre-labeled
+"I write software in safety critical robotics applications. That's also a huge sector right now. Have you ever been in a modern manufacturing facility or on an airplane? There lots of consumer junk software sure, but that's probably not 90%, and even then that's not taking 90% of software engineers time spent. I mean do you think 90% of civil engineering projects are bridges? Many civil engineers literally just design roadways and traffic layouts.",personal_anecdote,pre-labeled
+"No, it's more like saying that someone thinks that wearing a North Face jackets means they are prepared to go mountaineering. I'm not saying ALL software is or must be safety-critical, I'm saying that people are going to become complacent with LLM coding enough to create safety critical software with LLMs and assume that their static analysis tools are bulletproof in preventing every class of possible bug that an LLM (or even human) might create.
+
+Nothing I said implies that all software is life-critical. Neither is all civil engineering. I'm saying that there certainly are pieces of software that are safety critical or life critical that are now being written by LLMs without proper review or safe guards.
+
+A better analogy would be allowing civil engineers to use LLMs to draft, review, and accept bridge designs with limited human involvement, simply because it avoids some easily verifiable pitfalls.
+
+I guarantee you that someone is using LLMs to write some control system logic for a device that is well capable of killing someone, and their only safe guard is a MISRA static analysis tool and the fact that sometimes an engineer actually looks at the code. But hey, I guess most software isn't safety-critical so it's not even worth considering. Death is just a cost of doing business, AI will replace them anyway right?",opinion,pre-labeled
+"They're not, I even mentioned that. Thing is they can be held accountable. You could make the same argument about civil engineers and bridges, which is how this conversation started if you don't recall. There are other engineering practices to try to reduce human error, but ultimately they involve creating formal proofs which kind of lose their purpose if you just have an LLM drive formal verification.",opinion,pre-labeled
+"So the future will be great for scapegoats, before professionals. ""I'll pay you just to sit here and watch Claude do its thing. You'll have no control over it but if it screws up you'll be the one responsible"".",opinion,pre-labeled
+"I think the reality is a lot more complicated than you reduce it to. If you work on things that could fail in ways that could kill people I think you generally take that to heart. Does AI? Do you just prompt Claude with things like ""people die if there are bugs""?
+
+Some people might not care, those people face liabilities and accountability, though sure that system (the justice system) isn't perfect either. I'm sure there will be scapegoating and might already be, that's another issue though. What I'm talking about is just letting LLMs run completely unattended to write, verify, and release software in life-critical systems. Do you actually think AI will have the same judgement as a person? And despite whether you do or don't think that, can you prove it?
+
+Again, the current way is not flawless, but injecting productivity at any cost surely isn't moving the needle in the right direction. I work with safety critical systems (autonomous vehicles), the reality is things could be a lot better, there could be better formal verification process, and many people advocate for them and this DOES drive change, and there is probably a place for AI in this process in helping build out these things, but again human judgement and human accountability are currently primary drivers in these things already.
+
+To me it would make a world of sense if there was a way humans to define formal verification processes in a way that could let LLMs handle implementation so long as it adheres to some kind of formal verification process in can be implemented. The thing is that gets incredibly complicated, but I think it would be a profound area for research in the modern day. If you could enforce verifiable rules for systems without highlighting the entire intent up front. We already have some things like this such as LVL (limited variability language).
+
+You could effectively create software with certain guaranteed guardrails while still effectively driving all of development by LLMs. Thing is you can't remove humans and there will still be human bottlenecks, so therefore many companies won't do this. And again, I guarantee this is already happening and I assure you someone will die as a result of it.
+
+I'm not anti-AI, I just don't believe removing people from the loop in safety critical areas (software or otherwise) is a good idea.",personal_anecdote,pre-labeled
+"This is why I argue that people should calibrate education to be something that helps them in their 3rd job the most. There’s no way to know what the market will be like in 4 years, let alone 40. No student in 2022 anticipated that SWE would go from bulletproof to automate-worthy so fast",opinion,pre-labeled
+"
+Companies are not worrying about the pipeline for future expertise. Employees are too mobile. It is hard to justify the investment. And it is a future problem. Not a this-year problem. No manager is given credit for taking actions that will produce benefits (if at all) 5+ years in the future.",opinion,pre-labeled
+I mean most traditional white collared roles are protected by license and boomer mentality. Swe is whatever,assertion,pre-labeled
+"
+My friends sister is a radiologist. Her job now consists entirely of grading how well AI diagnosis the radiology scans. So at least that specialization is 100% cooked.",personal_anecdote,pre-labeled
+"Just make sure to save money, especially the people making 180k+. Don't take it for granted. Be financially disciplined. Save enough money to hold you over for 5 years so you have enough cushion to make it through any difficult period.
+
+I have a friend I graduated with making 200k+ that hasn't saved a thing. He just spends more as soon as he makes more. I have almost 500k saved over the same time period. I know there's alot of students and new grads on here. Be financially responsible.",personal_anecdote,pre-labeled
+"Personally, I think we're far from ""cooked"". I'm a senior leader at a large corp and have worked in tech for 20+ years.
+
+The reason ""coding"" has seen such rapid adoption and LLMs show real benefit is two fold.
+
+There is simply an absolute ton of data (code) and decades worth of understanding how to evaluate and verify it. Helping models during not just training but also reinfforcement learning.
+
+It's a ""technology"" and enginners and technology departments are highly adaptive, we love to automate things, tinker, play. So all the deterministic code, harnesses and frameworks to overcome some of the limitations of LLMs are being built at a ridiculous rate for our domain.
+
+So why don't I think we're cooked? Well firstly people are still a bit to hung up on what the world felt like during COVID, I've never seen hiring like that in my career and it was the most insane period of my life. Not only was I personally approached almost daily for jobs with simply silly salaries on the table but hiring and securing people was a nightmare. So we've had a massive correction on top of AI driving down junior demand and some recalibration of team sizes - but job postings are starting to recover slowly which will likely put us back to a level prior to COVID.
+
+Second, AI has yet to really ""diffuse"" (god how I hate that word) outside of Tech. While I'm certainly realistic on the potential of LLMs due to their limitations, just like we've experienced in Tech there is a sheer mountain of software, harnesses and things that'll need to be built as it for each industry to actually make LLMs work reliabley enough in each domain.
+
+Third. As LLMs begin to ""diffuse"" (arghhh) in other industries, the types of software or solutions that can be built now due to LLMs will be huge. There are simply so many things you'd never even think of building as you'd need millions and millions and an army of engineers writing rules engines and novel like length deterministic logic. They were just not economical viable. LLMs however opens up so many opportunities.
+
+It's going to feel rough - purely as so many companies are investing like crazy in AI and the casualty of cashflow going down is going to be headcount and COVID correction and AI has given organisations the perfect cover to execute redundancies without it hiting share price or investor confidence - but I do foresee a continued and steady recovery to what will be an explosion in demand for tech resource.
+
+Although in part some of this ""reset"" is good, every tom, dick, harry and jane went into Computer Science in last 10-20 years because ""learn to code"" was sold as this guranteed route to a higher income. When many had no real passion for technology, solving complex technical problems or building things. We could afford to lose some of those people as they infuriate me.
+
+That's my take. 5 years from now it'll feel allot different. Then again I could be completely wrong.",personal_anecdote,pre-labeled
+"Yes. (What makes you think they are not ?)
+
+Pretty much anything that can be formalized in code,. can be automated by AI.
+
+I would probably go so far as to say ""all humans jobs"" will be effected in some way or another. Just some will be impacted more.
+
+The question (and actions) we need to take as humans, is being resolute in keeping certain things human. This is a classic (global) example of the ""Just because you CAN do something, doesn't mean you should"".
+
+I've been to restaurants before that had a robot on wheels that delivered plates to tables. Neat gimmick. But I don't want to see an entire restaurant automated. I do to coffee shops and restaurants because I know other humans work there. If it was all robots ,I'll just make coffee and food at home.",personal_anecdote,pre-labeled
+"Lawyer here. We are also cooked. LLMs do a very good job at legal work (which is all just words in the proper order).
+
+The most cooked are the junior-to-mid level lawyers at the big law firms. They are expensive, and AI does their job more quickly, more cheaply and increasingly more effectively.",personal_anecdote,pre-labeled
+"I agree. Employment in the industry is contracting but it’s not going away entirely.
+
+I am doing three interviews a week, mostly for new grads. This is at a company that is heavily betting on AI. As in, almost all changes are made by AI, leadership has set the entire company strategy on using agents to do more, faster.",personal_anecdote,pre-labeled
+"employment is not even contracting if you actually look at the numbers. At least not yet
+
+",assertion,pre-labeled
+"It’s kinda already there. I’m
+A non-tech program manager and the data visualisations and insights I have AI do for me rather than wait on my data team’s bandwidth and availability has been pretty useful this past year.
+
+",personal_anecdote,pre-labeled
+"“Engineering is cooked” is probably the lowest IQ take on this sub
+
+
+",assertion,pre-labeled
+"Startups are the move right now. Huge amounts of cash flowing into investments and high TC. No shareholders to answer to.
+
+",assertion,pre-labeled
+"Devs in my company begged to have Claude licenses…they do not know what the consequences will be xD
+
+",assertion,pre-labeled
+"We are not cooked. The job description is just changing.
+
+
+",assertion,pre-labeled
+"welcome to the conversation everyone has been having for 2 years now
+
+",assertion,pre-labeled
+"it’s dog fooding, we cooked ourselves first but yes
+
+",assertion,pre-labeled
+"I don’t think any career is going to be safe. Those that think they are, good luck!
+
+",assertion,pre-labeled
