@@ -61,32 +61,53 @@ I picked the cscareerquestions "https://www.reddit.com/r/cscareerquestions/" com
      The decision rule is worth a point on its own and it's the thing most
      people leave out. Every taxonomy has a hardest boundary. Name yours. -->
 
-### `label_one`
+### `opinion`
 
 **Definition:**
+Makes a claim that summarizes a topic and then builds on top of that topic by providign the commentators personal
+opinion. Throughout the post the commentator makes generalizations that tie back to their arguement "I mean everyone. When the 70+ million white collar employees in the US are all unemployed and trying to pivot out of their failing industry.... where do you think they're all going to go" is an example.
+**Example 1:**
+"Yes, if the AI-doom that people are imagining arrives, everyone is cooked.
+
+The reason people only doom about CS is because everyones worried about "me, me, me". They have tunnel vision. They're worried about their careers, and what's going to happen to them. So they're imagining a world where CS disappears, and the rest of the world goes completely unchanged, the economy doesn't crash, other fields still hire like normal, and life goes on for everyone else except us.
+
+They're not zooming out and understanding that this is an everyone problem. Not just the careers that're cooked because of AI either. I mean everyone. When the 70+ million white collar employees in the US are all unemployed and trying to pivot out of their failing industry.... where do you think they're all going to go?
+
+They're going to flood the trades, and jobs that currently aren't susceptible to AI.
+
+Those fields do not have the room to support 70+ million people. Those fields will all become extremely oversaturated, and will crumble as well, just for an indirect reason.
+
+This isn't a problem you and I are going to solve. This isn't a problem you're going to dodge by becoming a crab fisherman.
+
+This is a problem that society is going to have to solve. It's going to change society as we know it. So buckle in and enjoy the ride. In the mean time, focus on what's in your control. I have a job now. I'm doing well at work now. I'm collecting a paycheck now. If any of that changes in the future, I'll make an educated decision about what to do next, based on what's happening in the world at that time. I'm not going to pre-emptively ditch an industry I've worked in for 13 years because some redditor says I'm doomed."
+**Example 2:**
+
+People doom about CS the most because we're the first being hit. People don't really realize what it means for everyone if CS really can be automated to the extent that the entire industry is cooked. If we're cooked, so is everyone.
+
+And it scares the crap out of me. If CS was the only thing that would get hit, while it would upset me personally as its the skill I've spent my life developing, overall I wouldn't be worried about it. Yes it would suck to have to change careers and almost certainly take lower pay, but I would be able to do so and life would go on. What scares me is that we are the canary right now signalling to everyone that we're all screwed, and I really don't know where we can even go from here to solve it on a societal level. But people won't realize accept the situation until it really hits everyone.
+
+### `personal_anecdote`
+
+**Definition:**
+A comentator describes something they noticed from their personal life that was impacted by the topic being discussed. They then tend to add to that summary their own viewpoint that is heavily linked to how they were impacted by the changes.
 
 **Example 1:**
 
->
+I’m literally a doctor and I’m worried I’m not going to have a job (not because I think AI can take care of people, but because I think some evil MBA will think it can)
+
+I take no joy in seeing the dev job market though. My brother is a software developer and I hate to see him out of a job. He’s nervous.
+
+Edit: also I don’t think laying off a bunch of devs is smart anyway because I’m not excited about my electronic medical record or banking system crashing because “whoops Claude forgot something and nobody checked it.” I just don’t trust the capitalist class to see it that way
 
 **Example 2:**
 
->
-
-### `label_two`
-
-**Definition:**
-
-**Example 1:**
-
->
-
-**Example 2:**
-
->
+This exactly. I’m a senior manager with 80 engineers reporting to me in FAANG. Every year they come after my SWE head count. Every year I save my head count by promising, and then delivering on automation the company can use or sell to fire someone else who is not an SWE. Engineers are fully on board. They’ve realized now that it’s an eat or be eaten world. In fact, half the time, it’s my senior engineers coming to me now with a “Boss, here’s something we can build that will kill 10% of accountants. We can do it in 3 months. Please sell it and save our jobs”
 
 ### The hardest boundary
 
+If a post has a very brief summary of a topic and then the rest is talking about a personal experience then it is a personal anecdote.
+
+Thankfully SWEs are terrible at building product for an industry they know nothing about. Being on the other end of this, most projects are cancelled even with me handholding them and the few that make it to full release are an absolute nightmare. There’s so much friction integrating these tools, partially because existing systems are an even worse mess. With Ai getting as good as it is now I’ve personally found it easier to make the tools myself now, but I never tell anyone about it lol
 **Which two labels:**
 
 **The decision rule I used every time:**
