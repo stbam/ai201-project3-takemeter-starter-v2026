@@ -6,14 +6,14 @@ unit 5 **before** anything was trained.
 **All five are yours this time.** None are given. You've had two projects of
 practice.
 
-An acceptance criterion names a number. *"The model is accurate"* is an
-opinion. *"Every label has an F1 of at least 0.60 on the held-out set"* is a
+An acceptance criterion names a number. _"The model is accurate"_ is an
+opinion. _"Every label has an F1 of at least 0.60 on the held-out set"_ is a
 criterion.
 
 Under each, write a sentence or two on **why that number**. A reason that says
-something about your data or your taxonomy earns credit — *"I picked 0.60 F1
+something about your data or your taxonomy earns credit — _"I picked 0.60 F1
 for `reaction` because it's my smallest label and I only have about 50
-examples of it"*. A reason that could be attached to any project does not.
+examples of it"_. A reason that could be attached to any project does not.
 
 > Missing your own targets next unit costs you nothing. Setting a target so
 > easy you can't miss it does.
@@ -30,13 +30,13 @@ somewhere you'd honestly call useful.
 form to fill in — a criterion that fits none of them is fine if it names a
 number.
 
-| Area | A question it could answer |
-|---|---|
-| Overall accuracy | How often does it need to be right to be worth using? |
-| Per-label performance | Is one label allowed to be much worse than the others? |
-| Balance | How lopsided can your label counts get before it's a problem? |
-| Consistency | If someone else labelled the same posts, how often should you agree? |
-| Confidence | Should a confident prediction be right more often than an unsure one? |
+| Area                  | A question it could answer                                            |
+| --------------------- | --------------------------------------------------------------------- |
+| Overall accuracy      | How often does it need to be right to be worth using?                 |
+| Per-label performance | Is one label allowed to be much worse than the others?                |
+| Balance               | How lopsided can your label counts get before it's a problem?         |
+| Consistency           | If someone else labelled the same posts, how often should you agree?  |
+| Confidence            | Should a confident prediction be right more often than an unsure one? |
 
 Two things worth knowing before you pick numbers, because both will affect
 whether you hit them:
@@ -55,11 +55,9 @@ whether you hit them:
 
 <!-- Your criterion. It must name a number. -->
 
-
-
+Every label has an F1 of at least .60 on the held-out set.
 **Why this target:**
-
-
+.60 is a good start as it leans in favor of the model being confident that the label is accurately assigned.
 
 ---
 
@@ -67,47 +65,47 @@ whether you hit them:
 
 <!-- Your criterion. -->
 
-
+The gap between the highest and lowest label F1 is at most .30 on the held-out set.
 
 **Why this target:**
 
-
+A gap of .30 is acceptable because the data set is only 200 posts. out of that 15% will be kept for testing after training.
+Therefore the gap can be wide.
 
 ---
 
 ## 3.
 
+No label is more than 50% of labels.csv.
+
 <!-- Your criterion. -->
 
-
-
 **Why this target:**
-
-
+The posts are spready out evenly across three different labels. The labels were defined to catch the different types of comments and
+so no label should take up 50% of the posts as then it means the definitions are not clear enough
 
 ---
 
 ## 4.
 
+Overall accuracy is at least .70 on the held-out set.
+
 <!-- Your criterion. -->
 
-
-
 **Why this target:**
-
-
+Accuracy of .70 aims at making sure that the model can accurately guess the post with room for error ,which is
+the other .30, when there isnt enough context.
 
 ---
 
 ## 5.
 
+My agreement with the staff labels is at least 70%.
+
 <!-- Your criterion. -->
 
-
-
 **Why this target:**
-
-
+I chose 70% (21 of the 30 staff posts) because I’ll be using the staff’s definitions instead of my own, and nuance of the posts and definitions might make the labeling different. I didn’t go lower because 70% is above random guessing .
 
 ---
 
