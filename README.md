@@ -49,7 +49,7 @@
 <!-- Your community, and what your classifier sorts posts into. Three or four
      sentences. -->
 
-I picked the cscareerquestions "https://www.reddit.com/r/cscareerquestions/" community.
+I picked the cscareerquestions "https://www.reddit.com/r/cscareerquestions/" community. The classifier is a fine-tuned DistilBERT model that sorts a post by how it backs up what it says: `opinion` (a claim with at least one reason), `personal_anecdote` (a viewpoint built on something the writer experienced), or `assertion` (a claim with no support). Most of the posts in my dataset are about AI and job security in software engineering, where people often make strong claims with very different amounts of support. On the seed 42 test split of 31 posts it reached 90.3% accuracy and a macro F1 of 0.897.
 
 ---
 
@@ -113,16 +113,14 @@ The real layoffs are likely to happen next year, this year was a test run to aut
 
 ### The hardest boundary
 
-**Definition:**
-If a post is providing one reason or a "because","due to", it is an opinion. If it lacks these characteristics it is assertion.
-
-**Example:**
-Thankfully SWEs are terrible at building product for an industry they know nothing about. Being on the other end of this, most projects are cancelled even with me handholding them and the few that make it to full release are an absolute nightmare. There’s so much friction integrating these tools, partially because existing systems are an even worse mess. With Ai getting as good as it is now I’ve personally found it easier to make the tools myself now, but I never tell anyone about it lol
 **Which two labels:**
 `opinion` and `assertion`
 
 **The decision rule I used every time:**
 If a post is providing one reason or a "because", "due to", it is an opinion. If it lacks these characteristics it is an assertion.
+
+**Example:**
+"I don't see coding jobs being replaced, to do that you would have to trust the model output fully, which no reasonable company is doing." This is an `opinion` because the claim comes with a reason. "Bro this career is a sinking ship" is an `assertion` because nothing supports it.
 
 <!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
      if the tone is heated." -->
@@ -134,19 +132,21 @@ If a post is providing one reason or a "because", "due to", it is an opinion. If
 <!-- Where you collected from, how you labelled, your counts, and three hard
      cases. -->
 
-**Where the posts came from:**
+**Where the posts came from:** Public posts and comments from r/cscareerquestions, mostly from discussions about AI and job security. I kept them in a spreadsheet and exported it as `labels.csv`.
 
 **How I labelled them:** <!-- Cold first? Pre-labelled with AI and corrected?
-Say so plainly — the disclosure is required, not penalised. -->
+Say so plainly — the disclosure is required, not penalised. --> 42 rows are marked `manual` because I labelled them myself. 159 rows are marked `pre-labeled` because they were pre-labelled with AI. I used google's gemini tool to pre label. Row 22 has no note.
+
+The dataset has one exact duplicate (rows 131 and 140, both `opinion`), which I chose to keep. A repeat can inflate scores if it lands in both training and test, but this one did not land in the seed 42 test split.
 
 **Counts per label:**
 
-| Label     | Count | Share |
-| --------- | ----- | ----- |
-|           |       |       |
-|           |       |       |
-|           |       |       |
-| **Total** |       | 100%  |
+| Label               | Count | Share |
+| ------------------- | ----- | ----- |
+| `opinion`           | 76    | 37.6% |
+| `assertion`         | 71    | 35.1% |
+| `personal_anecdote` | 55    | 27.2% |
+| **Total**           | 202   | 100%  |
 
 **Three hard cases**
 
@@ -155,27 +155,27 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 **1.**
 
-> _The post:_
+> _The post:_ "Lawyers and accountants aren't that far behind. Anything that is easily written and testable is highly vulnerable."
 >
-> _Could have been:_
+> _Could have been:_ `opinion` or `assertion`
 >
-> _I chose, because:_
+> _I chose, because:_ `opinion`. It is short and has no "because", but the second sentence gives a reason for the first.
 
 **2.**
 
-> _The post:_
+> _The post:_ "This sounds like UBI talk. It won’t be portrayed as a bipartisan solution and so we’ll all be coerced to hate the idea of it, or for those who support it"
 >
-> _Could have been:_
+> _Could have been:_ `assertion` or `opinion`
 >
-> _I chose, because:_
+> _I chose, because:_ `assertion`. The "so" looks like reasoning, but it only links one unsupported prediction to another.
 
 **3.**
 
-> _The post:_
+> _The post:_ "Bro, I am already working more because there’s no hiring despite more and more tasks coming my way. You’re telling me it will get even worse??"
 >
-> _Could have been:_
+> _Could have been:_ `personal_anecdote` or `opinion`
 >
-> _I chose, because:_
+> _I chose, because:_ `personal_anecdote`. It has a "because", but that explains the writer's own workload instead of supporting a general claim.
 
 ---
 
@@ -183,19 +183,22 @@ Say so plainly — the disclosure is required, not penalised. -->
 
 <!-- Your starting model, your settings, and anything you changed and why. -->
 
-**Base model:**
+**Base model:** `distilbert-base-uncased`
 
-**Settings:** <!-- epochs, learning rate, batch size, seed -->
+**Settings:** <!-- epochs, learning rate, batch size, seed --> 20 epochs, learning rate 2e-5, batch size 16, seed 42, max length 128. Trained on Apple Silicon GPU (MPS) with torch 2.14.1.
 
-**Anything I changed from the defaults, and why:**
+**Anything I changed from the defaults, and why:** I raised epochs from 3 to 20.This is because at just three epochs it was not enough runs to train the model. More epochs allowed for it to optimize the algorithm.I kept every other setting at its default.
 
 **Split sizes:** <!-- train / val / test, and per-label counts in the test
 split. If a label had fewer than about 8 in test, say so — it explains a lot
-of next unit's variance. -->
+of next unit's variance. --> Train 140, val 31, test 31. The test split has 12 `opinion`, 11 `assertion` and 8 `personal_anecdote`, so no label has fewer than 8.
 
 ---
 
 ## How I Used AI
+
+I used ai to guide me through the project. So vague explanations/directions would be better explained via claude since it has the
+context for how these concepts are meant to be used. I also used ai to explain terms like F1 score and train/test/split. Claude also drafted parts of this README from my files, including the three hard cases, and I checked them.
 
 <!-- Two specific moments — what you asked, what came back, what you changed.
 
@@ -206,17 +209,17 @@ of next unit's variance. -->
 
 **Moment 1**
 
-- _What I asked for:_
-- _What came back:_
-- _What I changed:_
+- _What I asked for:_ I asked Claude to review my third label, which was `negative_view`.
+- _What came back:_ It pointed out that my labels should separate posts by how they make their point, not by topic or attitude.
+- _What I changed:_ I replaced `negative_view` with `assertion`, so the label now means a claim with no support.
 
 **Moment 2**
 
-- _What I asked for:_
-- _What came back:_
-- _What I changed:_
+- _What I asked for:_ I asked Claude to review my decision rule for the hardest boundary, which was based on post length.
+- _What came back:_ It explained that length can be a shortcut the model learns instead of the real difference between the labels.
+- _What I changed:_ I rewrote the rule around whether a post gives a reason, such as a "because" or "due to".
 
-**Pre-labelling disclosure:**
+**Pre-labelling disclosure:** 159 of the 202 rows in `labels.csv` were pre-labelled with AI and are marked `pre-labeled`. 42 rows are marked `manual`, and one (row 22) has no note.
 
 <!-- ═══════════════════════ UNIT 6 — THE TEST ═══════════════════════
 
