@@ -64,8 +64,7 @@ I picked the cscareerquestions "https://www.reddit.com/r/cscareerquestions/" com
 ### `opinion`
 
 **Definition:**
-Makes a claim that summarizes a topic and then builds on top of that topic by providign the commentators personal
-opinion. Throughout the post the commentator makes generalizations that tie back to their arguement "I mean everyone. When the 70+ million white collar employees in the US are all unemployed and trying to pivot out of their failing industry.... where do you think they're all going to go" is an example.
+Makes a claim and supports it with at least one reason.
 **Example 1:**
 "Yes, if the AI-doom that people are imagining arrives, everyone is cooked.
 
@@ -103,14 +102,27 @@ Edit: also I don’t think laying off a bunch of devs is smart anyway because I�
 
 This exactly. I’m a senior manager with 80 engineers reporting to me in FAANG. Every year they come after my SWE head count. Every year I save my head count by promising, and then delivering on automation the company can use or sell to fire someone else who is not an SWE. Engineers are fully on board. They’ve realized now that it’s an eat or be eaten world. In fact, half the time, it’s my senior engineers coming to me now with a “Boss, here’s something we can build that will kill 10% of accountants. We can do it in 3 months. Please sell it and save our jobs”
 
+### `assertion`
+
+**Definition:**
+A commentator asserts a belief or a viewpoint without support to back up the claim. Usually it will lack the evidence.
+**Example 1:**
+Bro this career is a sinking ship. The covid cope in 2026 is devs in the denial stage 😆
+**Example 2:**
+The real layoffs are likely to happen next year, this year was a test run to automate the work with LLMs.
+
 ### The hardest boundary
 
-If a post has a very brief summary of a topic and then the rest is talking about a personal experience then it is a personal anecdote.
+**Definition:**
+If a post is providing one reason or a "because","due to", it is an opinion. If it lacks these characteristics it is assertion.
 
+**Example:**
 Thankfully SWEs are terrible at building product for an industry they know nothing about. Being on the other end of this, most projects are cancelled even with me handholding them and the few that make it to full release are an absolute nightmare. There’s so much friction integrating these tools, partially because existing systems are an even worse mess. With Ai getting as good as it is now I’ve personally found it easier to make the tools myself now, but I never tell anyone about it lol
 **Which two labels:**
+`opinion` and `assertion`
 
 **The decision rule I used every time:**
+If a post is providing one reason or a "because", "due to", it is an opinion. If it lacks these characteristics it is an assertion.
 
 <!-- e.g. "If the post names a specific checkable fact, it's `analysis`, even
      if the tone is heated." -->
