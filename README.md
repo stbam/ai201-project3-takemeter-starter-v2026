@@ -233,17 +233,21 @@ context for how these concepts are meant to be used. I also used ai to explain t
 <!-- Both models on the same posts. `python baseline.py --trained results.json`
      prints this table for you. -->
 
-| Measure          | Baseline | Trained | Difference |
-| ---------------- | -------- | ------- | ---------- |
-| Overall accuracy |          |         |            |
-| Macro F1         |          |         |            |
-| F1 — `label_one` |          |         |            |
-| F1 — `label_two` |          |         |            |
+| Measure                  | Baseline | Trained | Difference |
+| ------------------------ | -------- | ------- | ---------- |
+| Overall accuracy         | 0.387    | 0.903   | +0.516     |
+| Macro F1                 | 0.186    | 0.897   | +0.711     |
+| F1 — `assertion`         | 0.000    | 0.857   | +0.857     |
+| F1 — `opinion`           | 0.558    | 0.960   | +0.402     |
+| F1 — `personal_anecdote` | 0.000    | 0.875   | +0.875     |
 
 **What I predicted before I looked:**
 
 <!-- Milestone 1 asks you to write this BEFORE seeing the trained numbers. A
      prediction made afterwards isn't one. -->
+
+     My model will probably be more accurate than the baseline model because it is trained on examples already.
+     The general model will be guessing.
 
 **What the gap actually means:**
 

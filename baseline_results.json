@@ -1,0 +1,189 @@
+{
+  "model": "facebook/bart-large-mnli",
+  "n": 31,
+  "seed": 42,
+  "held_out": true,
+  "used_definitions": true,
+  "scores": {
+    "n": 31,
+    "accuracy": 0.3870967741935484,
+    "f1_macro": 0.18604651162790697,
+    "per_label": {
+      "assertion": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 11
+      },
+      "opinion": {
+        "precision": 0.3870967741935484,
+        "recall": 1.0,
+        "f1": 0.5581395348837209,
+        "support": 12
+      },
+      "personal_anecdote": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 8
+      }
+    }
+  },
+  "predictions": [
+    {
+      "text": "Startups are the move right now. Huge amounts of cash flowing into investments and high TC. No shareholders to answer to.\n\n",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "How is it clownery? What do you think the point of all software invented by human kind or really any technology does? By definition, technology automates something or makes something easier to do. The car for example made horse riders and stable masters obsolete. Then the bus made us need fewer drivers overall. Trains made us need fewer bus drivers. Planes made us need fewer train drivers. Look at any technology and this is what it does. AI is no different. It\u2019s making us need fewer SWEs today. In order for SWEs to save their jobs, they need to prove how they\u2019re still relevant. The only way to do that is to automate people doing other jobs..\n\nDon\u2019t take it up with me or any SWE doing their jobs. Take it up with the system. I\u2019m all for a system where we take these productivity gains, limit the profits and and use it to raise the living standard of everyone.",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "If you look at the stock market though, I think the \"economy\" is already detached from common folk.\n\nInflation and layoffs have been killing people for years, yet the economy keeps booming along. Stock market is doing amazing - with DOW above 52k.",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "for MS Office, which seems to be the main thing OP is talking about, it's not.\n\nMS Office cannot reliably cause you to permanently lose access to your documents. It does create dependence, MS can make licenses extremely expensive once they captured the marketshare but that means you would have to switch to alternative tools like LibreOffice, which may hurt your productivity but that does not mean MS would have a chokehold on your business. A better allegory would be cloud services offered by AWS, Google Drive and Azure but the anxiety regarding them is already present and alive. They are literally the reason why EU is pushing for alternatives.\n\nEven with cloud, the prices are not heavily subsidised to encourage adoption. LLMs are supposed to be significantly more expensive, they are just being heavily subsidised for users by burning money. It doesn't take a genius to see AI companies are planning to ramp up the prices and enshittify their products once AI adoption is high enough.\n\nCompanies can actually circumvent this by hosting their local models but then they need to purchase expensive GPUs and also ensure LLM safety, installation and maintenance by themselves. Is it doable? Maybe. But a sensible business decision would probably just using humans to do majority of the work while using an LLM for specialised cases like discovery of a zero day vulnerability, something that requires extremely repetitive brute-forcing approach, things that need urgent intervention in the middle of the night and so on. Maybe they could install local LLMs to actually cut down a lot of the workforce if GPU and energy costs come down by a lot, who knows?",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Lol no they won't.\n\nAny skilled trades person will be able to debug the vast vast majority of issues they encounter in their sleep, they don't need some AI to tell them to check a fuse or where to poke the multimeter probes.\n\nSouece, used to do event tech stuff (festival etc) and could and would have to debug some insane messes of power or data cabling. Not once would I have wanted to use AI to help nor do I think it would have sped the process up.",
+      "gold": "personal_anecdote",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Dream on. And you also answered the question why most folks are celebrating your downfall",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Electrician who was giving me estimate recently used AI extensively.",
+      "gold": "personal_anecdote",
+      "predicted": "opinion"
+    },
+    {
+      "text": "I sense the same thing. Also, one more thing to note is that I happen to be practising competitive programming lately, and these AI chatbots tend to struggle to provide solutions that pass all the test cases. There' also the fact that they generate some unnecessary, gibberish code that isn't necessarily needed\n\nI wonder, if they're having problems generating code for well defined problems, how would they behave when it comes to real-world production software?\n\nI have worked on many personal projects and tried using AI assisted coding, but it was a mess every time I tried it. Even though we might get something workable, it often isn't good enough.\n\nBut I still wonder whether I am right or wrong when I happen to read Reddit posts where people boast about all the stuff they're trying to do\n\nAnd all of that seems like a hoax to me. I have also learnt a bit about machine learning and deep learning, and Transformer architecture isn't particularly good at generating this kind of code. Long term retention requires context, and maintaining that much context across a huge project would be problematic\n\nI feel like one of the main applications of Transformer architecture can be found in cybersecurity. One of my personal projects involved building a custom firewall that used custom trained LLMs to detect zero-day attacks and things like that. It performed quite well in that regard, as it could recognise patterns and identify potential vulnerabilities. Theres much more potential in this area, and perhaps that's one of the reasons we've been observing an increase in cyberattacks lately: Transformer-based models have become quite good at identifying vulnerabilities and patterns that could be exploited\n\nAnother interesting application I observed was in reverse engineering. These models can recognise patterns and potentially identify the underlying boilerplate code\n\nI feel like using LLMs to generate code is a misuse of the technology, though I may be wrong\n\nWhat is the state of software development with AI assistance at your company?",
+      "gold": "personal_anecdote",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Medicine has an inherent physical aspect to it, so not sure about that. But law is just as impacted as we are by AI. Yes there's licensure, but that doesn't mean lawyers aren't using AI. I'm close friends with a lawyer who's been practicing for about 13 years. AI has completely changed his day to day. For example, he used to have his junior associates read through an insane amount of pages of case law, and provide him a summary relevant to a case he's working. He'd obviously have to review their work, check their claims, etc. He can't just blindly trust a green lawyer. But they do the grunt work, and he's focused on the bigger picture.\n\nWhat he and the other experienced lawyers have been able to do with AI is have AI do the exact same thing that they used to have their junior associates do. Main difference is AI ends up providing significantly better summaries than the junior associates ever could. He still has to review everything, he still has to fact check everything, just like he did when he had human underlings providing him these things, so his workflow hasn't really changed. What's happening beneath him has changed dramatically.\n\nDirect quote from him: \"Associates are fucked\". And that was a few years ago. I'm sure they're even more fucked now.\n\nI'm sure parts of medicine are changing in similar ways. There obviously still needs to be a human involved, but I bet AI is augmenting the field to the point they no longer need people doing \"grunt work\". For a lot of these regulated fields the concern isn't AI just completely eliminating the field. The concern is AI wipes out the need for entry level people. Just like our concern.",
+      "gold": "personal_anecdote",
+      "predicted": "opinion"
+    },
+    {
+      "text": "I think that really depends on the type job you have. Many of the senior and junior people working on our product before AI were spending more than 50% of their time coding. We have architects, principal and staff engineers plus a fairly technical product owner to do the rest. I typed in very little code before and only a tiny tiny amount after getting comfortable with AI tools",
+      "gold": "personal_anecdote",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Talk to an actual lawyer who is trying to integrate AI into their work, it\u2019s not as simple as you say\n\n\n",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Think a lot of people are underestimating how crucial data warehousing is when it comes to general automation. Especially mid level management and non technical directors. Im a de in analytics/ds and i think prompt engineering your way to analytics is pretty rough without very good data models with enough context for llms and agents to reason with. One business process of many can live across 10 source applications (and across hundreds of non technical peoples brains, which makes it hard for ai to do said integrations) and integration of all this is a prerequisite if you want any sort of accuracy to come with AI-built analytics and whatnot at least as far as data goes",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Thats not relevant to the comment youre replying to\n\nJust because they use ai doesnt mean its right first time",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "I agree. Employment in the industry is contracting but it\u2019s not going away entirely.\n\nI am doing three interviews a week, mostly for new grads. This is at a company that is heavily betting on AI. As in, almost all changes are made by AI, leadership has set the entire company strategy on using agents to do more, faster.",
+      "gold": "personal_anecdote",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Software Devs are the most tech savvy which means they can easily find 1 dev to do the work of 10. It's going to take longer in other areas. All dev jobs won't be wiped out, like like farm mechanisation didn't eliminate all farm workers. We just have 1 farmer doing the work of 100 previously, the same will be true here.\n\n\n",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "The stock market is not the economy",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "This sounds like UBI talk. It won\u2019t be portrayed as a bipartisan solution and so we\u2019ll all be coerced to hate the idea of it, or for those who support it",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "In terms of complexity our work is the lowest. We freaking give free training data every single moment with GitHub and the like. Don't kid yourself.\n\nYou know how AI is good with pure math unlike other sciences right now? It's cause the result has a defined conclusion and AI just has to go step by step until the defined conclusion is met.\n\nYou have an engineer break down the problem and next thing you know, the individual tasks are very easy to accomplish.\n\nThat's the difference. Defined input. And defined output. And very limited logical statements to get there (if/else if/loop). And an insane always growing training set.\n\nI'm not saying software engineering is the easiest. No. That's like claiming pure math is the easiest of the sciences. It's most likely not true. But for AI, it is technically the easiest to bring impact on.",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "I work as an AI Engineer trying to automatize the job of other white collar workers. Before you ask, I did not sign up for this when I got into Data Science years ago before LLMs or transformers, but it is what it is.\n\nIn my humble opinion, the issue is that to automatize coding (not software engineering!) all data was there from day 1, up for grabs. This is not true for any of the workflows I try to automatize in finance/insurance. Half of the business rules only exists on the heads of the people performing the job or, for that matter, obscure documents. Policies are different between companies, between countries, even within companies in the same country (M&A) or in different countries because of inertia or different legal frameworks.\n\nIf you look at the frontier labs or any company doing big money with AI (LLMs or not), as primary product or as enabler/differentiator, you see the biggest moat they have is simply data. Good access to data, good data cleaning and enhancing pipelines.\n\nDespite being a broken record in this field for the last 10 years, absolutely nobody wants to put work into gathering data. They think process data, the by product of their operations, is good enough. It isn't. For the product manager or CTO of the moment, It's all about trying to get that ellusive (because non-existent) low-hanging fruit of applying the last model, the last agentic framework. We will vibe the evaluation. It looks mostly right or right enough in our 500, sampled God knows how, case list. It never ends. It only appears to be good enough for a brief moment. It will always collapse under the weight of it's overpromising and underdeliverying reality, but for the eyes of the corporative beholder doing curriculum driven work, it will count as a success. \n\nBeyond the usual software challenges when dealing with legacy and fragmented systems, automating anything is hard work and requires lots of painful manual annotation. It requires a big deviation of human resources to support this work. I have never seen such a commitment. They think some new software with the latest AI ideas will get it automagicaly. That's the truth nobody wants to hear.  As far as coding is concerned (and partially software engineering), we did this job years ago and posted it online for free.",
+      "gold": "personal_anecdote",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Increased demand for the resource being LLM not human developers\n\n",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "What does it mean to do AI \u201cwell\u201d? And what evidence do you have that most office workers use it in that way?\n\nYou\u2019re speaking very matter of factly on this and I simply can\u2019t believe most of the workforce is using AI \u201cwell\u201d. Most don\u2019t even know what an agent is and use it as glorified search.",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Open source code was used to train the models and our industry\u2019s propensity to share code was also our downfall. Other industries have proprietary data and are beginning to lock out LLMs for their own inhouse models. Might be slower to adapt.",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Coding jobs are being replaced and will continue to be so. There is nothing to suggest engineering becomes extinct but it may be a case that only the most skilled survive as they have the traditional SWE skill and, due to their aptitude with tech that allowed them to become the most skilled, they will also be highly skilled with AI, meaning they can work a lot faster.\n\nAlso, I think a lot of people are only seeing AI as an augmentation to SWE and not realising that engineering AI systems will be in huge demand in future - semantic analysis, device intelligence, security intelligence. I suspect it is really only just starting. I think we are possibly going to see a future were engineers are in massive demand whereas coding as a profession is completely obsolete - they were only doing that because seniors didn't have enough time to do all of it, which they can now delegate to AI due to their skill level/domain knowledge.",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "Personally, I think we're far from \"cooked\". I'm a senior leader at a large corp and have worked in tech for 20+ years.\n\nThe reason \"coding\" has seen such rapid adoption and LLMs show real benefit is two fold.\n\nThere is simply an absolute ton of data (code) and decades worth of understanding how to evaluate and verify it. Helping models during not just training but also reinfforcement learning.\n\nIt's a \"technology\" and enginners and technology departments are highly adaptive, we love to automate things, tinker, play. So all the deterministic code, harnesses and frameworks to overcome some of the limitations of LLMs are being built at a ridiculous rate for our domain.\n\nSo why don't I think we're cooked? Well firstly people are still a bit to hung up on what the world felt like during COVID, I've never seen hiring like that in my career and it was the most insane period of my life. Not only was I personally approached almost daily for jobs with simply silly salaries on the table but hiring and securing people was a nightmare. So we've had a massive correction on top of AI driving down junior demand and some recalibration of team sizes - but job postings are starting to recover slowly which will likely put us back to a level prior to COVID.\n\nSecond, AI has yet to really \"diffuse\" (god how I hate that word) outside of Tech. While I'm certainly realistic on the potential of LLMs due to their limitations, just like we've experienced in Tech there is a sheer mountain of software, harnesses and things that'll need to be built as it for each industry to actually make LLMs work reliabley enough in each domain.\n\nThird. As LLMs begin to \"diffuse\" (arghhh) in other industries, the types of software or solutions that can be built now due to LLMs will be huge. There are simply so many things you'd never even think of building as you'd need millions and millions and an army of engineers writing rules engines and novel like length deterministic logic. They were just not economical viable. LLMs however opens up so many opportunities.\n\nIt's going to feel rough - purely as so many companies are investing like crazy in AI and the casualty of cashflow going down is going to be headcount and COVID correction and AI has given organisations the perfect cover to execute redundancies without it hiting share price or investor confidence - but I do foresee a continued and steady recovery to what will be an explosion in demand for tech resource.\n\nAlthough in part some of this \"reset\" is good, every tom, dick, harry and jane went into Computer Science in last 10-20 years because \"learn to code\" was sold as this guranteed route to a higher income. When many had no real passion for technology, solving complex technical problems or building things. We could afford to lose some of those people as they infuriate me.\n\nThat's my take. 5 years from now it'll feel allot different. Then again I could be completely wrong.",
+      "gold": "personal_anecdote",
+      "predicted": "opinion"
+    },
+    {
+      "text": "The difference is that development work gives faster feedback for correctness. Does it compile? Once run, does it show desired behavior? A legal brief may be full of errors that won't be discovered for days or weeks. Faster feedback means more iterations are possible, which makes it more effective.",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "The difference is that for software and math, there is a verifiable output which can be checked to ensure the answer the model gave is indeed correct. In addition that answer can be checked virtually. This isn't true of many other white collar jobs.",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "For now, AI somewhere is probably working on possible solutions to accountability that no human can see\u2026",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "very bad take\n\n\n",
+      "gold": "assertion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "They\u2019re all cooked\n\nDoesn\u2019t make tech any less cooked. It makes tech more cooked because these other fields aren\u2019t able to absorb the outflow of current/prospective software devs, and vice-versa\n\nBut yes, software developers are positioned with the expertise to be early adopters of the tech. So we are the ones complaining most at this point",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "\"The law profession requires lots of human interaction/subjectivity.\"\n\nThis could apply to CS, as well or even accounting.\n\nIn CS, you may get the \"correct\" end result as in it that it runs, but what the customer wants isn't just a 0 or 1 - it can be very subjective.",
+      "gold": "opinion",
+      "predicted": "opinion"
+    },
+    {
+      "text": "I don't see it taking my job, but I see it reducing entry level jobs. I don't see it gettinguch better than it is now. Been pretty stagnate for 3 months.",
+      "gold": "assertion",
+      "predicted": "opinion"
+    }
+  ]
+}
