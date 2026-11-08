@@ -1,0 +1,23 @@
+{
+  "compared": 30,
+  "agreed": 27,
+  "agreement_rate": 0.9,
+  "disagreements": [
+    {
+      "text": "Heart rate zones are astrology for runners.",
+      "staff": "hot_take",
+      "mine": "reaction"
+    },
+    {
+      "text": "Nobody actually enjoys the long run. They enjoy having done it, which is a completely different thing, and the sport would be more honest if it said so.",
+      "staff": "hot_take",
+      "mine": "reaction"
+    },
+    {
+      "text": "Every injury thread on this forum is the same injury and the same three replies.",
+      "staff": "hot_take",
+      "mine": "reaction"
+    }
+  ],
+  "staff_posts_not_in_mine": 0
+}
