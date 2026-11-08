@@ -254,6 +254,9 @@ context for how these concepts are meant to be used. I also used ai to explain t
 <!-- If the baseline matched your trained model, your fine-tuning added
      nothing — and that is a real finding, not a failure. Say it plainly. -->
 
+The gap means that the accuracy of a trained model was finetuned to the degree where the model was very accurate in sorting posts.
+the one with baseline was mostly just guessing.
+
 ---
 
 ## Run Log — Before
