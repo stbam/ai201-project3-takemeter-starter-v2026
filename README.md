@@ -343,7 +343,7 @@ No criterion was missed, so there is no miss to diagnose. Two of them nearly wer
 
 - **Unstable measure.** Seed 42 scored 0.903 and the other two seeds scored 0.710. The test split has only 31 posts, with 8 `personal_anecdote`, so one post moves accuracy by about 3 points and a label's F1 by much more. Criteria 1 and 4 held, but on the two weaker seeds they held by 0.04 and 0.01.
 - **The `opinion`/`assertion` boundary is the weakest part.** `opinion` was the lowest-F1 label on seeds 7 and 2024. Most of its misses went to `assertion` (6 across the three seeds).
-- **Labelling or model?** On the staff set I applied someone else's written rules and agreed 90% of the time, so I can generally apply a rule consistently. But all three disagreements were on the staff boundary between an unsupported general claim and a personal experience. That's similar to my own `assertion` boundary.
+- **Labelling or model?** On the staff set I applied someone else's written rules and agreed 90% of the time, so I can generally apply a rule consistently. But all three disagreements were on the staff boundary between an unsupported general claim and a personal experience. That's similar to my own `assertion` boundary I chose to go with my own experience to break the tie.
 - **Overfitting.** On seed 42, validation loss was lowest (about 0.72) around epochs 6–8 and rose to 1.01 by epoch 20, while training loss fell to 0.02. After about epoch 7 the model was memorizing training posts. I chose 20 epochs.
 
 ---
@@ -424,21 +424,41 @@ All three disagreements are on the same pair and go the same way: staff said `ho
 
 ## The Improvement
 
-**What I changed:**
+**What I changed:** One training setting: epochs went from 20 to 7. The labels, the taxonomy, the criteria, the seeds (42, 7, 2024) and every other setting stayed the same.
 
-**Which diagnosis pointed at it:**
+**Which diagnosis pointed at it:** Overfitting. On seed 42, validation loss was lowest (about 0.72) around epochs 6–8 and rose to 1.01 by epoch 20, while training loss fell to 0.02. That looked like the model was memorizing training posts after about epoch 7, so I stopped training there.
 
 ### Run Log — After
 
-| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
-| --------- | ------ | ------- | ------ | --------- | ------- |
-| 1.        |        |         |        |           |         |
-| 2.        |        |         |        |           |         |
-| 3.        |        |         |        |           |         |
-| 4.        |        |         |        |           |         |
-| 5.        |        |         |        |           |         |
+| Criterion                            | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
+| ------------------------------------ | ------ | ------- | ------ | --------- | ------- |
+| 1. Every label F1 (lowest shown)     | ≥ 0.60 | 0.737   | 0.615  | 0.000     | MISSED  |
+| 2. Highest minus lowest label F1     | ≤ 0.30 | 0.152   | 0.126  | 0.727     | MISSED  |
+| 3. Largest label share of labels.csv | ≤ 50%  | 37.6%   | 37.6%  | 37.6%     | MET     |
+| 4. Overall accuracy                  | ≥ 0.70 | 0.839   | 0.710  | 0.581     | MISSED  |
+| 5. Agreement with staff labels       | ≥ 70%  | 90%     | 90%    | 90%       | MET     |
+
+Per-label F1 after:
+
+| Seed | `opinion` | `personal_anecdote` | `assertion` | Macro F1 |
+| ---- | --------- | ------------------- | ----------- | -------- |
+| 42   | 0.889     | 0.875               | 0.737       | 0.834    |
+| 7    | 0.741     | 0.615               | 0.727       | 0.694    |
+| 2024 | 0.625     | 0.000               | 0.727       | 0.451    |
+
+All three seeds added together, after:
+
+| true \ predicted      | opinion | personal_anecdote | assertion |
+| --------------------- | ------- | ----------------- | --------- |
+| **opinion**           | 32      | 1                 | 3         |
+| **personal_anecdote** | 9       | 11                | 4         |
+| **assertion**         | 9       | 1                 | 28        |
 
 **Did it help, and how do I know:**
+
+No, it made the model worse. Before, all five criteria were met. After, three of them miss (1, 2 and 4), all because of seed 2024. On that seed the model never predicted `personal_anecdote` (F1 0.000) and accuracy fell to 0.581. Macro F1 dropped on every seed: 0.897 → 0.834, 0.707 → 0.694 and 0.708 → 0.451.
+
+The added-together matrix shows where the errors went. Real `personal_anecdote` posts called `opinion` went from 4 to 9, and real `assertion` posts called `opinion` went from 4 to 9. With 7 epochs the model hadn't learned the smaller labels yet, so it fell back on `opinion`, my biggest label. Seed 42 did fine at 7 epochs, but seed 2024 needed more training. My overfitting evidence came from one seed's validation curve, and the epoch count that suited seed 42 doesn't suit the other splits. The 20-epoch model is the better one.
 
 <!-- If it didn't, say so. Relabelling that didn't help is a genuinely
      interesting result and earns full credit. -->
@@ -451,8 +471,26 @@ All three disagreements are on the same pair and go the same way: staff said `ho
 
 **The gap between what I meant my labels to capture and what the model
 learned:**
+I stopped at editting the labels more than once because it comes down to subjectivity at that point. Rereading the same
+labels and looking for a new meaning within them can yield incorrect results than just leaving it as is. My analysis is that
+leaving the labels as is after the first edit is best for an introductory course.
 
 <!-- Two sentences. Your confusion matrix is the evidence. -->
+
+| true \ predicted      | opinion | personal_anecdote | assertion |
+| --------------------- | ------- | ----------------- | --------- |
+| **opinion**           | 12      | 0                 | 0         |
+| **personal_anecdote** | 0       | 7                 | 1         |
+| **assertion**         | 3       | 1                 | 7         |
+
+Biggest confusion: 3 real `assertion` posts called `opinion`.
+The other direction: 0 real `opinion` posts called `assertion`.
+
+That's lopsided — the model leans toward `opinion` on this pair.
+A direction like that usually points at your labelling rather than the
+model. Your agreement report is the thing that can tell you which.
+
+This is the confusion matrix.
 
 <!-- ═════════════════════════════════════════════════════════════════════
 
