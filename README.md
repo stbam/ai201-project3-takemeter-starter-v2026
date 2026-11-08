@@ -264,13 +264,13 @@ the one with baseline was mostly just guessing.
 <!-- Five criteria across three seeds. The notebook's section 6 prints the
      spread table; the Target and Verdict columns are yours. -->
 
-| Criterion | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
-| --------- | ------ | ------- | ------ | --------- | ------- |
-| 1. Every label F1 (lowest shown) | ≥ 0.60 | 0.857 | 0.667 | 0.640 | MET |
-| 2. Highest minus lowest label F1 | ≤ 0.30 | 0.103 | 0.074 | 0.178 | MET |
-| 3. Largest label share of labels.csv | ≤ 50% | 37.6% | 37.6% | 37.6% | MET |
-| 4. Overall accuracy | ≥ 0.70 | 0.903 | 0.710 | 0.710 | MET |
-| 5. Agreement with staff labels | ≥ 70% | 90% | 90% | 90% | MET |
+| Criterion                            | Target | Seed 42 | Seed 7 | Seed 2024 | Verdict |
+| ------------------------------------ | ------ | ------- | ------ | --------- | ------- |
+| 1. Every label F1 (lowest shown)     | ≥ 0.60 | 0.857   | 0.667  | 0.640     | MET     |
+| 2. Highest minus lowest label F1     | ≤ 0.30 | 0.103   | 0.074  | 0.178     | MET     |
+| 3. Largest label share of labels.csv | ≤ 50%  | 37.6%   | 37.6%  | 37.6%     | MET     |
+| 4. Overall accuracy                  | ≥ 0.70 | 0.903   | 0.710  | 0.710     | MET     |
+| 5. Agreement with staff labels       | ≥ 70%  | 90%     | 90%    | 90%       | MET     |
 
 Criteria 3 and 5 don't depend on the seed: criterion 3 measures `labels.csv` and criterion 5 is one comparison against the staff set, so the same number is in each column.
 
@@ -291,19 +291,19 @@ Accuracy moved 0.193 across the three seeds, which is almost double the 10-point
 
 Seed 42 (what section 7 prints):
 
-| true \ predicted | opinion | personal_anecdote | assertion |
-|---|---|---|---|
-| **opinion** | 12 | 0 | 0 |
-| **personal_anecdote** | 0 | 7 | 1 |
-| **assertion** | 1 | 1 | 9 |
+| true \ predicted      | opinion | personal_anecdote | assertion |
+| --------------------- | ------- | ----------------- | --------- |
+| **opinion**           | 12      | 0                 | 0         |
+| **personal_anecdote** | 0       | 7                 | 1         |
+| **assertion**         | 1       | 1                 | 9         |
 
 All three seeds added together, because every off-diagonal cell in seed 42 is 0 or 1:
 
-| true \ predicted | opinion | personal_anecdote | assertion |
-|---|---|---|---|
-| **opinion** | 27 | 3 | 6 |
-| **personal_anecdote** | 4 | 17 | 3 |
-| **assertion** | 4 | 1 | 28 |
+| true \ predicted      | opinion | personal_anecdote | assertion |
+| --------------------- | ------- | ----------------- | --------- |
+| **opinion**           | 27      | 3                 | 6         |
+| **personal_anecdote** | 4       | 17                | 3         |
+| **assertion**         | 4       | 1                 | 28        |
 
 **My biggest off-diagonal number, and what it means:**
 
@@ -320,13 +320,13 @@ Across the three seeds, 6 real `opinion` posts were called `assertion` and only 
 <!-- MET or MISSED against LAST UNIT's target. The target has to hold across
      all three seeds, not turn up sometimes. -->
 
-| #   | Criterion | Target | Verdict | How I decided |
-| --- | --------- | ------ | ------- | ------------- |
-| 1   | Every label has an F1 of at least .60 on the held-out set | ≥ 0.60 | MET | The lowest label F1 was 0.857, 0.667 and 0.640, so it held on all three seeds. It was close on seed 2024 (`opinion`, 0.640). |
-| 2   | Gap between highest and lowest label F1 is at most .30 | ≤ 0.30 | MET | The largest gap was 0.178 on seed 2024. |
-| 3   | No label is more than 50% of labels.csv | ≤ 50% | MET | `opinion` is the largest label at 76 of 202 rows (37.6%). |
-| 4   | Overall accuracy is at least .70 on the held-out set | ≥ 0.70 | MET | 0.903, 0.710 and 0.710. It only cleared by 0.010 on two seeds, so one more wrong post out of 31 would have been a miss. |
-| 5   | Agreement with the staff labels is at least 70% | ≥ 70% | MET | 27 of 30 = 90%. |
+| #   | Criterion                                                 | Target | Verdict | How I decided                                                                                                                |
+| --- | --------------------------------------------------------- | ------ | ------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| 1   | Every label has an F1 of at least .60 on the held-out set | ≥ 0.60 | MET     | The lowest label F1 was 0.857, 0.667 and 0.640, so it held on all three seeds. It was close on seed 2024 (`opinion`, 0.640). |
+| 2   | Gap between highest and lowest label F1 is at most .30    | ≤ 0.30 | MET     | The largest gap was 0.178 on seed 2024.                                                                                      |
+| 3   | No label is more than 50% of labels.csv                   | ≤ 50%  | MET     | `opinion` is the largest label at 76 of 202 rows (37.6%).                                                                    |
+| 4   | Overall accuracy is at least .70 on the held-out set      | ≥ 0.70 | MET     | 0.903, 0.710 and 0.710. It only cleared by 0.010 on two seeds, so one more wrong post out of 31 would have been a miss.      |
+| 5   | Agreement with the staff labels is at least 70%           | ≥ 70%  | MET     | 27 of 30 = 90%.                                                                                                              |
 
 **Diagnoses**
 
@@ -343,7 +343,7 @@ No criterion was missed, so there is no miss to diagnose. Two of them nearly wer
 
 - **Unstable measure.** Seed 42 scored 0.903 and the other two seeds scored 0.710. The test split has only 31 posts, with 8 `personal_anecdote`, so one post moves accuracy by about 3 points and a label's F1 by much more. Criteria 1 and 4 held, but on the two weaker seeds they held by 0.04 and 0.01.
 - **The `opinion`/`assertion` boundary is the weakest part.** `opinion` was the lowest-F1 label on seeds 7 and 2024. Most of its misses went to `assertion` (6 across the three seeds).
-- **Labelling or model?** On the staff set I applied someone else's written rules and agreed 90% of the time, so I can generally apply a rule consistently. But all three disagreements were on the staff boundary between an unsupported general claim and a personal experience. That's similar to my own `assertion` boundary. **[CONFIRM: once you've made your calls below, say whether this points at your labelling or at the model]**
+- **Labelling or model?** On the staff set I applied someone else's written rules and agreed 90% of the time, so I can generally apply a rule consistently. But all three disagreements were on the staff boundary between an unsupported general claim and a personal experience. That's similar to my own `assertion` boundary.
 - **Overfitting.** On seed 42, validation loss was lowest (about 0.72) around epochs 6–8 and rose to 1.01 by epoch 20, while training loss fell to 0.02. After about epoch 7 the model was memorizing training posts. I chose 20 epochs.
 
 ---
@@ -378,8 +378,6 @@ No criterion was missed, so there is no miss to diagnose. Two of them nearly wer
      written rule two different ways on 30 posts, that is direct evidence about
      what you did across your own 200. -->
 
-**[CONFIRM: Claude wrote the case for each label from the staff rules. "My call" and "Which pile" are yours. Write them, then delete this line.]**
-
 **1.**
 
 > _The post:_ "Heart rate zones are astrology for runners."
@@ -388,9 +386,10 @@ No criterion was missed, so there is no miss to diagnose. Two of them nearly wer
 >
 > _The case for each:_ For `hot_take`, it's a confident general claim about heart rate zones with no support, and rule 2 says that's `hot_take`. For `reaction`, it reads like a quick, dismissive gut response with no argument. But it says nothing about the writer or something that just happened, and `reaction` requires that.
 >
-> _My call, and why:_ **[CONFIRM]**
+> _My call, and why:_ I said reaction because it is structured as a response to someone else's hot take. The reason mine is right is
+> because it is structured as a reaction rather than as a statement without any evidence.
 >
-> _Which pile:_ **[CONFIRM]**
+> _Which pile:_ (c) The rule is ambiguous here and your reading is defensible.
 
 **2.**
 
@@ -400,9 +399,10 @@ No criterion was missed, so there is no miss to diagnose. Two of them nearly wer
 >
 > _The case for each:_ For `hot_take`, it's a claim about all runners ("nobody"), and strength of feeling isn't support. For `reaction`, it's emotional and about the experience of running. But it's a general claim, not the writer's own recent experience.
 >
-> _My call, and why:_ **[CONFIRM]**
+> _My call, and why:_ The reason i chose reaction is because it is written as a response to someone else's statement. There is no
+> evidence to back it up and it is not written as an independent claim but as a response to someone else's claim.
 >
-> _Which pile:_ **[CONFIRM]**
+> _Which pile:_ (c) The rule is ambiguous here and your reading is defensible.
 
 **3.**
 
@@ -412,13 +412,13 @@ No criterion was missed, so there is no miss to diagnose. Two of them nearly wer
 >
 > _The case for each:_ For `hot_take`, it's an unsupported generalization ("every") about the forum. For `reaction`, it sounds like exasperation at something the writer just saw. But the post doesn't point to any thread or moment, so it's about the forum in general, not something that just happened.
 >
-> _My call, and why:_ **[CONFIRM]**
+> _My call, and why:_ I chose reaction as it is written as reacting to something they observed.However it can also be taken as a hot_take because they are making a claim after an observation.
 >
-> _Which pile:_ **[CONFIRM]**
+> _Which pile:_ (a) The rule covered it and you applied it loosely.
 
 **What the pattern in my disagreements tells me:**
 
-All three disagreements are on the same pair and go the same way: staff said `hot_take` and I said `reaction`. All three are short, opinionated posts with no support. **[CONFIRM: what this tells you, once your calls are written]**
+All three disagreements are on the same pair and go the same way: staff said `hot_take` and I said `reaction`. All three are short, opinionated posts with no support. This tells me that there isnt an exact definition for some posts. It is up for debate.
 
 ---
 
